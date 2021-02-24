@@ -1,0 +1,179 @@
+.FirstSteps {
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: sans-serif;
+}
+
+.FirstSteps h1 {
+  font-family: fantasy;
+  text-align: center;
+}
+
+.FirstSteps h3 {
+  margin-bottom: 10px;
+  font-style: oblique;
+}
+
+.FirstSteps #name {
+  width: 270px;
+}
+
+.FirstSteps #detailsComment {
+  font-weight: bold;
+  font-style: oblique;
+  margin: 10px 0;
+}
+
+.FirstSteps #noteComment {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: oblique;
+  margin: 10px 0;
+}
+
+.FirstSteps #details {
+  width: 270px;
+}
+
+.FirstSteps #create-character {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.FirstSteps #create-character:hover {
+  transform: translateX(-50%) scale(1.06);
+}
+
+.FirstSteps #existing {
+  margin-bottom: 15px;
+  width: 270px;
+}
+
+.FirstSteps .Form label {
+  display: block;
+}
+
+.FirstSteps .Form {
+  width: 270px;
+}
+
+#formWrap {
+  width: 300px;
+}
+
+.Form hr {
+  margin-bottom: 10px;
+}
+
+#row-gender, #row-skin, #row-hair, #row-eyes {
+  display: inline-block;
+}
+
+#row-skin, #row-eyes {
+  margin-left: 10px;
+}
+
+#row-skin input {
+  width: 183px;
+}
+
+#row-hair input {
+  width: 150px;
+}
+
+#row-eyes input {
+  width: 110px;
+}
+
+#row-description, #row-hair {
+  margin-top: 10px;
+}
+
+#row-description input {
+  width: 270px;
+}
+
+/* ==============================================================================================
+    MEDIA QUERIES
+============================================================================================== */
+
+@media screen and (min-width: 790px) {
+  #formWrap {
+    width: 500px;
+  }
+
+  .FirstSteps .Form {
+    width: 100%;
+  }
+
+  .FirstSteps .Form label {
+    display: inline-block;
+  }
+
+  .FirstSteps #existing {
+    margin-bottom: 15px;
+    width: 333px;
+  }
+
+  .FirstSteps #name {
+    margin-top: 15px;
+    width: 347px;
+  }
+
+  .FirstSteps #details {
+    width: 473px;
+  }
+
+  .Form hr {
+    margin-bottom: 0px;
+  }
+
+  #row-skin input {
+    width: 284px;
+  }
+
+  #row-hair input {
+    width: 227px;
+  }
+
+  #row-eyes input {
+    width: 153px;
+  }
+
+  #row-description input {
+    width: 385px;
+  }
+}
+
+@media screen and (max-height: 775px) {
+  .FirstSteps h3 {
+    font-size: 10px;
+    margin-top: -10px;
+  }
+
+  .FirstSteps #detailsComment {
+    font-size: 11px;
+    margin: 8px 0;
+  }
+
+  .FormLabel {
+    font-size: 14px;
+  }
+
+  .FirstSteps #existing {
+    margin-bottom: 5px;
+  }
+
+  .FirstSteps .Form {
+    margin-top: -10px;
+  }
+
+  .FirstSteps #noteComment {
+    font-size: 10px;
+    margin: 5px 0;
+  }
+}

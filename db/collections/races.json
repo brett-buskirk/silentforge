@@ -1,0 +1,232 @@
+{
+	"_id": {
+		"$oid": "5e4d4d28e37231c9b7d30e43"
+	},
+	"name": "human",
+	"abilAdj": {
+		"str": 0.0,
+		"dex": 0.0,
+		"con": 0.0,
+		"int": 0.0,
+		"wis": 0.0,
+		"cha": 0.0
+	},
+	"size": "Medium",
+	"speed": 30.0,
+	"feats": [],
+	"skills": [],
+	"features": [
+		"bonus feat",
+		"4 extra skill points"
+	],
+	"autoLang": [
+		"Common"
+	],
+	"bonusLang": [],
+	"favClass": "any"
+}
+{
+	"_id": {
+		"$oid": "5e4d4e5ce37231c9b7d30e44"
+	},
+	"name": "dwarf",
+	"abilAdj": {
+		"str": 0.0,
+		"dex": 0.0,
+		"con": 2.0,
+		"int": 0.0,
+		"wis": 0.0,
+		"cha": -2.0
+	},
+	"size": "Medium",
+	"speed": 20.0,
+	"feats": [],
+	"skills": [],
+	"features": [
+		"darkvision 60ft.",
+		"stonecunning",
+		"weapon familiarity (dwarven waraxe, dwarven urgrosh)",
+		"stability",
+		"+2 save against poison",
+		"+2 save against spells and spell-like abilities",
+		"+1 attack vs. orcs and goblinoids",
+		"+4 dodge bonus to AC vs. giants",
+		"+2 Appraise with stone/metal items",
+		"+2 Craft with stone/metal items"
+	],
+	"autoLang": [
+		"Common",
+		"Dwarven"
+	],
+	"bonusLang": [
+		"Giant",
+		"Gnome",
+		"Goblin",
+		"Orc",
+		"Terran",
+		"Undercommon"
+	],
+	"favClass": "fighter"
+}
+{
+	"_id": {
+		"$oid": "5e4d4fa5e37231c9b7d30e45"
+	},
+	"name": "elf",
+	"abilAdj": {
+		"str": 0.0,
+		"dex": 2.0,
+		"con": -2.0,
+		"int": 0.0,
+		"wis": 0.0,
+		"cha": 0.0
+	},
+	"size": "Medium",
+	"speed": 30.0,
+	"feats": [
+		"Martial Weapon Proficiency (longsword, rapier, longbow, shortbow)"
+	],
+	"skills": [],
+	"features": [
+		"immunity to magic sleep effects",
+		"low-light vision",
+		"chance to notice secret/concealed doors within 5ft."
+	],
+	"autoLang": [
+		"Common",
+		"Elven"
+	],
+	"bonusLang": [
+		"Draconic",
+		"Gnoll",
+		"Gnome",
+		"Goblin",
+		"Orc",
+		"Sylvan"
+	],
+	"favClass": "wizard",
+	"bonusSkills": [
+		"Listen",
+		"Search",
+		"Spot"
+	]
+}
+{
+	"_id": {
+		"$oid": "5e4d507be37231c9b7d30e46"
+	},
+	"name": "half-orc",
+	"abilAdj": {
+		"str": 2.0,
+		"dex": 0.0,
+		"con": 0.0,
+		"int": -2.0,
+		"wis": 0.0,
+		"cha": -2.0
+	},
+	"size": "Medium",
+	"speed": 30.0,
+	"feats": [],
+	"skills": [],
+	"features": [
+		"darkvision 30ft.",
+		"orc blood"
+	],
+	"autoLang": [
+		"Common",
+		"Orc"
+	],
+	"bonusLang": [
+		"Draconic",
+		"Giant",
+		"Gnoll",
+		"Goblin",
+		"Abyssal"
+	],
+	"favClass": "barbarian"
+}
+{
+	"_id": {
+		"$oid": "5e4fd952e37231c9b7d30e49"
+	},
+	"name": "halfling",
+	"abilAdj": {
+		"str": -2.0,
+		"dex": 2.0,
+		"con": 0.0,
+		"int": 0.0,
+		"wis": 0.0,
+		"cha": 0.0
+	},
+	"size": "Small",
+	"speed": 20.0,
+	"feats": [],
+	"skills": [],
+	"features": [
+		"+1 bonus on all saving throws",
+		"+2 bonus on saves vs. fear",
+		"+1 attacks with thrown weapons or slings"
+	],
+	"autoLang": [
+		"Common",
+		"Halfling"
+	],
+	"bonusLang": [
+		"Dwarven",
+		"Elven",
+		"Gnome",
+		"Goblin",
+		"Orc"
+	],
+	"favClass": "rogue",
+	"bonusSkills": [
+		"Climb",
+		"Jump",
+		"Listen",
+		"Move Silently"
+	]
+}
+{
+	"_id": {
+		"$oid": "5e53de29e37231c9b7d30e4a"
+	},
+	"name": "gnome",
+	"abilAdj": {
+		"str": -2.0,
+		"dex": 0.0,
+		"con": 2.0,
+		"int": 0.0,
+		"wis": 0.0,
+		"cha": 0.0
+	},
+	"size": "Small",
+	"speed": 20.0,
+	"feats": [],
+	"skills": [],
+	"features": [
+		"low-light vision",
+		"weapon familiarity (gnome hooked hammer)",
+		"+2 save against illusions",
+		"+1 to DC of illusion spells cast",
+		"+1 attack vs. kobolds and goblinoids",
+		"+4 dodge bonus to AC vs. giants",
+		"spell-like abilities: 1/day - dancing lights, ghost sound, prestidigitation, speak with animals (burrowing mammal only, duration 1 minute). CL: 1st"
+	],
+	"autoLang": [
+		"Common",
+		"Gnome"
+	],
+	"bonusLang": [
+		"Draconic",
+		"Dwarven",
+		"Elven",
+		"Giant",
+		"Goblin",
+		"Orc"
+	],
+	"favClass": "bard",
+	"bonusSkills": [
+		"Listen",
+		"Craft (alchemy)"
+	]
+}

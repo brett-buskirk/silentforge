@@ -1,0 +1,18 @@
+.AutoFill {
+  display: inline-block;
+}
+
+.AutoFill input {
+  font-size: 16px;
+  width: 240px;
+  padding: 3px;
+  border-radius: 5px;
+  margin: 0 auto;
+  border-color: silver;
+  background-color: whitesmoke;
+}
+
+
+.featOption:hover {
+  cursor: pointer;
+}

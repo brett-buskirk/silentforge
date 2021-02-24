@@ -1,0 +1,252 @@
+/* ==============================================================================================
+    GLOBAL STYLES
+============================================================================================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, p, ul, li {
+  font-family: sans-serif;
+}
+
+.underLimit {
+  color: green;
+}
+
+.overLimit {
+  color: red;
+}
+
+
+/* ==============================================================================================
+    INFO BUTTON
+============================================================================================== */
+
+#info-btn {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  height: 30px;
+  width: 30px;
+  background-image: url("images/normalInfo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#info-btn:hover {
+  background-image: url("images/hoverInfo.png");
+}
+
+
+/* ==============================================================================================
+    NAVBAR STYLES
+============================================================================================== */
+
+.navbar {
+  position: absolute;
+  margin-top: 68px;
+  z-index: 500;
+  left: 0px;
+  transition: all .9s cubic-bezier(0, .52, 0, 1);
+  width: 130px;
+}
+
+.navbrand-hex {
+  position: absolute;
+  color: gold;
+  font-size: 5em;
+  text-shadow: 3px 3px 10px black;
+  top: -25px;
+  right: 7px;
+  z-index: 20;
+  transform: all .2s cubic-bezier(0, 1.26, .8, 1.28);
+}
+
+.navbrand-hex:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+.navbrand-text {
+  position: absolute;
+  top: 40px;
+  left: 15px;
+  font-family: fantasy;
+  font-size: 37px;
+  letter-spacing: -3px;
+  font-weight: bold;
+  color: gold;
+  text-shadow: 3px 3px 10px black;
+}
+
+.nav {
+  position: relative;
+  height: 420px;
+  width: 141px;
+}
+
+.nav-inner {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 100%;
+  width: 100%;
+  background: rgba(80, 80, 80, 0.75);
+  border: 2px solid rgba(255, 255, 255, 0.75);
+}
+
+.nav:after,
+.nav:before {
+  position: absolute;
+  content: '';
+  height: 99%;
+  width: 97%;
+  opacity: 0.75;
+  border: 2px solid white;
+  z-index: -1;
+}
+
+.nav:after {
+  top: -4px;
+  left: 10px;
+  border-width: 2px 2px 0px 0px;
+  background: linear-gradient(180deg, rgb(80, 80, 80) 5px, transparent 5px) no-repeat, 
+              linear-gradient(270deg, rgb(80, 80, 80) 4px, transparent 4px) no-repeat;
+}
+
+.nav:before {
+  top: 10px;
+  left: -4px;
+  border-width: 0px 0px 2px 2px;
+  background: linear-gradient(0deg, rgb(80, 80, 80) 5px, transparent 5px) no-repeat, 
+              linear-gradient(90deg, rgb(80, 80, 80) 4px, transparent 4px) no-repeat;
+}
+
+.nav-inner:before,
+.nav-inner:after {
+  position: absolute;
+  content: '';
+  height: 12px;
+  width: 12px;
+  border: 2px solid rgba(255, 255, 255, 0.75);
+}
+
+.nav-inner:before {
+  top: -6px;
+  left: -6px;
+  border-width: 0px 2px 2px 0px;
+}
+
+.nav-inner:after {
+  bottom: -6px;
+  right: -6px;
+  border-width: 2px 0px 0px 2px;
+}
+
+ul.header {
+  margin: 10px;
+  margin-top: 10px;
+}
+
+ul.header li {
+  list-style-type: none;
+  margin-top: 10px;
+  font-size: 18px;
+  text-shadow: 0 0 10px black;
+  color: white;
+}
+
+ul.header li .hex {
+  display: inline-block;
+  text-decoration: none;
+  text-shadow: 0 0 10px black;
+  color: gold;
+}
+
+.hex:after {
+  position: relative;
+  content: '⬣';
+  font-size: 10px;
+  left: -18px;
+  top: -2px;
+}
+
+.navItem {
+  display: inline-block;
+  position: relative;
+  bottom: -1px;
+  left: -8px;
+}
+
+.navItem:hover {
+  cursor: pointer;
+  color: gold;
+}
+
+.currentPage {
+  color: gold;
+}
+
+
+/* ==============================================================================================
+    CHARACTER NAME DISPLAY
+============================================================================================== */
+
+.charName {
+  position: absolute;
+  display: inline-block;
+  font-family: Noteworthy, sans-serif;
+  text-align: center;
+  font-size: 1em;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 8px black;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+/* ==============================================================================================
+    MEDIA QUERIES
+============================================================================================== */
+
+@media only screen and (min-width: 720px) {
+  .charName {
+    font-size: 2em;
+    top: 15px;
+  }
+
+  .navbrand-hex {
+    font-size: 7em;
+    top: -35px;
+  }
+
+  .navbrand-text {
+    top: 58px;
+    left: 22px;
+    font-size: 51px;
+  }
+
+  #info-btn {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+@media screen and (max-height: 775px) {
+  .DialogFooter {
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+  }
+
+  .DialogBody {
+    font-size: 14px;
+    margin-bottom: 60px;
+  }
+}

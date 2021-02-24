@@ -1,0 +1,237 @@
+.Features {
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: sans-serif;
+}
+
+
+/* ==============================================================================================
+    BASIC FEATURES
+============================================================================================== */
+
+.Features h1 {
+  font-family: fantasy;
+  text-align: center;
+}
+
+.Features h3 {
+  margin-bottom: 10px;
+  font-style: oblique;
+}
+
+#frm-features .FormRow {
+  display: inline-block;
+  margin-top: 5px;
+}
+
+#frm-features #name {
+  width: 228px;
+}
+
+#frm-features #alignment {
+  width: 203px;
+}
+
+#frm-features #deity {
+  width: 234px;
+}
+
+#frm-features #gender {
+  width: 85px;
+  margin-right: 15px;
+}
+
+#frm-features #age {
+  width: 86px;
+}
+
+#frm-features #height {
+  width: 91px;
+  margin-right: 15px;
+}
+
+#frm-features #weight {
+  width: 68px;
+}
+
+#frm-features #row-skin, #frm-features #row-eyes {
+  margin-left: 0px;
+}
+
+#frm-features #skin {
+  width: 238px;
+}
+
+#frm-features #hair {
+  width: 106px;
+  margin-right: 15px;
+}
+
+#frm-features #eyes {
+  width: 80px;
+}
+
+#frm-features #description {
+  width: 273px;
+}
+
+#frm-features #personality {
+  width: 273px;
+}
+
+#frm-features #background {
+  width: 273px;
+}
+
+#more-features {
+  margin-right: 15px;
+}
+
+#formWrap div.btn-group {
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#formWrap .noWorkingCharacter {
+  color: black;
+}
+
+#frm-features  .FormLabel {
+  font-size: 14px;
+}
+
+
+/* ==============================================================================================
+    RANGER FEATURES
+============================================================================================== */
+
+.SelectEnemy {
+  display: inline-block;
+}
+
+.SelectEnemy input {
+  font-size: 16px;
+  width: 240px;
+  padding: 3px;
+  border-radius: 5px;
+  margin: 0 auto;
+  border-color: silver;
+  background-color: whitesmoke;
+}
+
+.enemyOption:hover {
+  cursor: pointer;
+}
+
+.SelectEnemy p {
+  font-style: oblique;
+  margin: 15px 0px;
+}
+
+
+/* ==============================================================================================
+    BARD/SORCERER FEATURES
+============================================================================================== */
+
+.SelectSpells p {
+  font-style: oblique;
+  margin: 15px 0px;
+  text-align: center;
+}
+
+.SelectSpells h4 {
+  text-align: center;
+}
+
+.spellList {
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: auto;
+  height: 290px;
+  width: 250px;
+}
+
+.spellList h3 {
+  margin-top: 10px;
+}
+
+.classSpell input {
+  zoom: 1.4;
+  cursor: pointer;
+}
+
+.classSpell label {
+  cursor: pointer;
+}
+
+.classSpell label:hover {
+  color: gold;
+  text-shadow: 0px 0px 5px black;
+}
+
+
+/* ==============================================================================================
+    MEDIA QUERIES
+============================================================================================== */
+
+@media screen and (min-width: 790px) {
+  #frm-features #alignment {
+    width: 155px;
+    margin-right: 15px;
+  }
+
+  #frm-features #deity {
+    width: 192px;
+  }
+
+  #frm-features #age {
+    margin-right: 15px;
+  }
+
+  #frm-features #height {
+    width: 136px;
+    margin-right: 0px;
+  }
+
+  #frm-features #weight {
+    width: 88px;
+    margin-right: 15px;
+  }
+
+  #frm-features #skin {
+    width: 283px;
+  }
+
+  #frm-features #hair {
+    width: 240px;
+  }
+
+  #frm-features #eyes {
+    width: 145px;
+  }
+
+  #frm-features #description {
+    width: 394px;
+  }
+
+  #frm-features #personality {
+    width: 395px;
+  }
+
+  #frm-features #background {
+    width: 389px;
+  }
+}
+
+@media screen and (min-width: 830px) {
+  .spellList {
+    width: 400px;
+  }
+}

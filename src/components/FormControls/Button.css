@@ -1,0 +1,36 @@
+.Button {
+  margin-top: 10px;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px #333;
+  transition: transform .3s;
+}
+
+.Button:hover {
+  cursor: pointer;
+  transform: scale(1.06);
+  box-shadow: 0px 0px 12px #333;
+}
+
+.btnDefault {
+  background-color: crimson;
+  border: 2px groove rgb(175, 17, 49);
+  color: yellow;
+}
+
+.btn-metal {
+  background: linear-gradient(to right, silver, whitesmoke, white, whitesmoke, silver);
+  border: 2px groove gold;
+}
+
+.btn-go {
+  background: linear-gradient(to right, green, lightgreen, rgb(175, 247, 175), lightgreen, green);
+  border: 2px groove gold;
+}
+
+.Button:focus {
+  outline-color: gold;
+}

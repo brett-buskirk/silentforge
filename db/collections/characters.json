@@ -1,0 +1,2726 @@
+{
+	"_id": {
+		"$oid": "5e4af4f31118cd3130a5f7aa"
+	},
+	"details": {
+		"alignment": "Chaotic Neutral",
+		"deity": "Kord",
+		"gender": "male",
+		"age": 24,
+		"height": "6 ft. 2 in.",
+		"weight": "235 lb.",
+		"skin": "Scarred and tattooed",
+		"hair": "Black, shaved",
+		"eyes": "Green",
+		"description": "half-orc barbarian with a bad attitude!",
+		"personality": "Wild and careless",
+		"background": "Born in the wilderness"
+	},
+	"abilities": {
+		"str": {
+			"basic": 16,
+			"race": 2,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"dex": {
+			"basic": 12,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"con": {
+			"basic": 14,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"int": {
+			"basic": 12,
+			"race": -2,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"wis": {
+			"basic": 12,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"cha": {
+			"basic": 12,
+			"race": -2,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		}
+	},
+	"saves": {
+		"fort": {
+			"basic": 2,
+			"feat": 0,
+			"enhancement": 0,
+			"abil": 2
+		},
+		"ref": {
+			"basic": 0,
+			"feat": 0,
+			"enhancement": 0,
+			"abil": 1
+		},
+		"will": {
+			"basic": 0,
+			"feat": 0,
+			"enhancement": 0,
+			"abil": 1
+		}
+	},
+	"class": "barbarian",
+	"race": "half-orc",
+	"skillPoints": 16,
+	"maxRanks": "4/2",
+	"raceFeatures": [
+		"darkvision 30ft.",
+		"orc blood"
+	],
+	"classFeatures": [
+		"fast movement",
+		"illiteracy",
+		"rage 1/day"
+	],
+	"hp": 14,
+	"speed": 30,
+	"size": "Medium",
+	"languages": [
+		"Common",
+		"Orc"
+	],
+	"money": 100,
+	"domains": [],
+	"spellsKnown": [],
+	"spellsPerDay": [],
+	"name": "Dragodar",
+	"skills": [
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e5d71567f5641b20aa1a716"
+			},
+			"ranks": 4,
+			"name": "Climb",
+			"classSkill": true,
+			"abil": "str"
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e5d71567f5641b20aa1a717"
+			},
+			"ranks": 2,
+			"name": "Handle Animal",
+			"classSkill": true,
+			"abil": "cha"
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e5d71567f5641b20aa1a718"
+			},
+			"ranks": 3,
+			"name": "Intimidate",
+			"classSkill": true,
+			"abil": "cha"
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e5d71567f5641b20aa1a719"
+			},
+			"ranks": 2,
+			"name": "Listen",
+			"classSkill": true,
+			"abil": "wis"
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e5d71567f5641b20aa1a71a"
+			},
+			"ranks": 1,
+			"name": "Ride",
+			"classSkill": true,
+			"abil": "dex"
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e5d71567f5641b20aa1a71b"
+			},
+			"ranks": 2,
+			"name": "Survival",
+			"classSkill": true,
+			"abil": "wis"
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e5d71567f5641b20aa1a71c"
+			},
+			"ranks": 2,
+			"name": "Swim",
+			"classSkill": true,
+			"abil": "str"
+		}
+	],
+	"feats": [
+		{
+			"class": false,
+			"race": false,
+			"_id": {
+				"$oid": "5e67e79c29acad5834b530dd"
+			},
+			"name": "Power Attack",
+			"focus": null
+		}
+	],
+	"equipment": [],
+	"weapons": [],
+	"armor": [],
+	"spellList": [],
+	"createdAt": {
+		"$date": "2020-02-17T20:17:55.364Z"
+	},
+	"updatedAt": {
+		"$date": "2020-03-23T17:47:42.333Z"
+	},
+	"__v": 0,
+	"bab": 1,
+	"campaign": 3,
+	"armorProf": [
+		"light armor",
+		"medium armor",
+		"shields (but not tower shields)"
+	],
+	"cl": 0,
+	"weaponProf": [
+		"all simple weapons",
+		"all martial weapons"
+	],
+	"allowedAlignments": [
+		"Chaotic Evil",
+		"Chaotic Good",
+		"Chaotic Neutral",
+		"Neutral Evil",
+		"Netural Good"
+	]
+}
+{
+	"_id": {
+		"$oid": "5e4be28fe614d25e6d867375"
+	},
+	"details": {
+		"description": "gnome bard outcast",
+		"personality": "mischeivous",
+		"background": "street urchin",
+		"alignment": "Chaotic Evil",
+		"deity": "Boccob",
+		"age": 58,
+		"gender": "male",
+		"height": "3 ft. 5 in.",
+		"weight": "45",
+		"eyes": "brown",
+		"hair": "long black",
+		"skin": "ruddy"
+	},
+	"abilities": {
+		"str": {
+			"basic": 10,
+			"race": -2,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"dex": {
+			"basic": 14,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"con": {
+			"basic": 12,
+			"race": 2,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"int": {
+			"basic": 10,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"wis": {
+			"basic": 12,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"cha": {
+			"basic": 16,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		}
+	},
+	"saves": {
+		"fort": {
+			"basic": 0,
+			"feat": 0,
+			"enhancement": 0,
+			"abil": 2
+		},
+		"ref": {
+			"basic": 2,
+			"feat": 0,
+			"enhancement": 0,
+			"abil": 2
+		},
+		"will": {
+			"basic": 2,
+			"feat": 0,
+			"enhancement": 0,
+			"abil": 1
+		}
+	},
+	"class": "bard",
+	"race": "gnome",
+	"skillPoints": 24,
+	"maxRanks": "4/2",
+	"raceFeatures": [
+		"low-light vision",
+		"weapon familiarity (gnome hooked hammer)",
+		"+2 save against illusions",
+		"+1 to DC of illusion spells cast",
+		"+1 attack vs. kobolds and goblinoids",
+		"+4 dodge bonus to AC vs. giants",
+		"spell-like abilities: 1/day - dancing lights, ghost sound, prestidigitation, speak with animals (burrowing mammal only, duration 1 minute). CL: 1st"
+	],
+	"classFeatures": [
+		"bardic music",
+		"bardic knowledge",
+		"countersong",
+		"fascinate",
+		"inspire courage +1"
+	],
+	"hp": 8,
+	"speed": 20,
+	"size": "Small",
+	"languages": [
+		"Common",
+		"Gnome"
+	],
+	"money": 85,
+	"domains": [],
+	"spellsKnown": [
+		4
+	],
+	"spellsPerDay": [
+		2
+	],
+	"name": "Guido von Reedleskeet",
+	"skills": [
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e5d37483b57248f99cabb6f"
+			},
+			"name": "Appraise",
+			"classSkill": true,
+			"abil": "int",
+			"ranks": 2
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e5d37483b57248f99cabb6e"
+			},
+			"name": "Bluff",
+			"classSkill": true,
+			"abil": "cha",
+			"ranks": 2
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e5d37483b57248f99cabb6d"
+			},
+			"name": "Concentration",
+			"classSkill": true,
+			"abil": "con",
+			"ranks": 2
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e5d37483b57248f99cabb6c"
+			},
+			"name": "Diplomacy",
+			"classSkill": true,
+			"abil": "cha",
+			"ranks": 2
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e5d37483b57248f99cabb6b"
+			},
+			"name": "Gather Information",
+			"classSkill": true,
+			"abil": "cha",
+			"ranks": 2
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e5d37483b57248f99cabb6a"
+			},
+			"name": "Knowledge (arcana)",
+			"classSkill": true,
+			"abil": "int",
+			"ranks": 2
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e5d37483b57248f99cabb69"
+			},
+			"name": "Knowledge (local)",
+			"classSkill": true,
+			"abil": "int",
+			"ranks": 2
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e5d37483b57248f99cabb68"
+			},
+			"name": "Perform",
+			"classSkill": true,
+			"abil": "cha",
+			"ranks": 4
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e5d37483b57248f99cabb67"
+			},
+			"name": "Sleight of Hand",
+			"classSkill": true,
+			"abil": "dex",
+			"ranks": 2
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e5d37483b57248f99cabb66"
+			},
+			"name": "Spellcraft",
+			"classSkill": true,
+			"abil": "int",
+			"ranks": 2
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e5d37483b57248f99cabb65"
+			},
+			"name": "Use Magic Device",
+			"classSkill": true,
+			"abil": "cha",
+			"ranks": 2
+		}
+	],
+	"feats": [
+		{
+			"class": false,
+			"race": false,
+			"_id": {
+				"$oid": "5e78ed49d9816dd9310afffd"
+			},
+			"name": "Dodge",
+			"focus": null
+		}
+	],
+	"equipment": [],
+	"weapons": [],
+	"armor": [],
+	"spellList": [
+		{
+			"_id": {
+				"$oid": "5e78c548b41d56bd5933ff28"
+			},
+			"name": "Prestidigitation",
+			"level": 0
+		},
+		{
+			"_id": {
+				"$oid": "5e78c548b41d56bd5933ff29"
+			},
+			"name": "Light",
+			"level": 0
+		},
+		{
+			"_id": {
+				"$oid": "5e78c548b41d56bd5933ff2a"
+			},
+			"name": "Mage Hand",
+			"level": 0
+		},
+		{
+			"_id": {
+				"$oid": "5e78c548b41d56bd5933ff2b"
+			},
+			"name": "Detect Magic",
+			"level": 0
+		}
+	],
+	"createdAt": {
+		"$date": "2020-02-18T13:11:43.122Z"
+	},
+	"updatedAt": {
+		"$date": "2020-03-24T19:34:01.968Z"
+	},
+	"__v": 0,
+	"bab": 0,
+	"campaign": 2,
+	"allowedAlignments": [
+		"Chaotic Evil",
+		"Chaotic Good",
+		"Chaotic Neutral",
+		"Netural",
+		"Neutral Evil",
+		"Netural Good"
+	],
+	"armorProf": [
+		"light armor",
+		"shields (but not tower shields)"
+	],
+	"cl": 1,
+	"weaponProf": [
+		"all simple weapons",
+		"longsword",
+		"rapier",
+		"sap",
+		"shortbow",
+		"short sword",
+		"whip"
+	],
+	"remainingMoney": 85
+}
+{
+	"_id": {
+		"$oid": "5e4ea638a231dd97c13bd9bf"
+	},
+	"details": {
+		"description": "Heavily-muscled and imposing",
+		"personality": "War-like, loves conflict",
+		"background": "Raised in a tribal village",
+		"alignment": "Chaotic Neutral",
+		"deity": "Kord",
+		"age": 20,
+		"gender": "male",
+		"height": "6 ft. 1 in.",
+		"weight": "225 lb.",
+		"eyes": "Hazel",
+		"hair": "Short, blond",
+		"skin": "Tanned, some scars"
+	},
+	"abilities": {
+		"str": {
+			"basic": 16,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"dex": {
+			"basic": 14,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"con": {
+			"basic": 14,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"int": {
+			"basic": 12,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"wis": {
+			"basic": 12,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"cha": {
+			"basic": 10,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		}
+	},
+	"saves": {
+		"fort": {
+			"basic": 2,
+			"feat": 0,
+			"enhancement": 0,
+			"abil": 2
+		},
+		"ref": {
+			"basic": 0,
+			"feat": 0,
+			"enhancement": 0,
+			"abil": 2
+		},
+		"will": {
+			"basic": 0,
+			"feat": 0,
+			"enhancement": 0,
+			"abil": 1
+		}
+	},
+	"class": "fighter",
+	"race": "human",
+	"campaign": 3,
+	"bab": 1,
+	"skillPoints": 16,
+	"maxRanks": "4/2",
+	"raceFeatures": [
+		"bonus feat",
+		"4 extra skill points"
+	],
+	"classFeatures": [
+		"bonus feat"
+	],
+	"hp": 12,
+	"speed": 30,
+	"size": "Medium",
+	"languages": [
+		"Common"
+	],
+	"money": 150,
+	"domains": [],
+	"spellsKnown": [],
+	"spellsPerDay": [],
+	"name": "White Wind",
+	"skills": [
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e5e5594030f3bc09120b0a7"
+			},
+			"name": "Climb",
+			"classSkill": true,
+			"abil": "str",
+			"ranks": 4
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e5e5594030f3bc09120b0a8"
+			},
+			"name": "Handle Animal",
+			"classSkill": true,
+			"abil": "cha",
+			"ranks": 2
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e5e5594030f3bc09120b0a9"
+			},
+			"name": "Intimidate",
+			"classSkill": true,
+			"abil": "cha",
+			"ranks": 2
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e5e5594030f3bc09120b0aa"
+			},
+			"name": "Jump",
+			"classSkill": true,
+			"abil": "str",
+			"ranks": 2
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e5e5594030f3bc09120b0ab"
+			},
+			"name": "Listen",
+			"classSkill": true,
+			"abil": "wis",
+			"ranks": 4
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e5e5594030f3bc09120b0ac"
+			},
+			"name": "Ride",
+			"classSkill": true,
+			"abil": "dex",
+			"ranks": 2
+		}
+	],
+	"feats": [
+		{
+			"class": false,
+			"race": false,
+			"_id": {
+				"$oid": "5e78fafbd4ec6ee187225086"
+			},
+			"name": "Weapon Focus (1st weapon)",
+			"focus": null
+		},
+		{
+			"class": false,
+			"race": false,
+			"_id": {
+				"$oid": "5e78fafbd4ec6ee187225087"
+			},
+			"name": "Power Attack",
+			"focus": null
+		},
+		{
+			"class": false,
+			"race": false,
+			"_id": {
+				"$oid": "5e78fafbd4ec6ee187225088"
+			},
+			"name": "Cleave",
+			"focus": null
+		}
+	],
+	"equipment": [],
+	"weapons": [],
+	"armor": [],
+	"spellList": [],
+	"createdAt": {
+		"$date": "2020-02-20T15:31:04.189Z"
+	},
+	"updatedAt": {
+		"$date": "2020-03-23T18:07:55.901Z"
+	},
+	"__v": 0,
+	"allowedAlignments": [
+		"Chaotic Evil",
+		"Chaotic Good",
+		"Chaotic Neutral",
+		"Lawful Evil",
+		"Lawful Good",
+		"Lawful Neutral",
+		"Netural",
+		"Neutral Evil",
+		"Netural Good"
+	],
+	"armorProf": [
+		"light armor",
+		"medium armor",
+		"heavy armor",
+		"shields (including tower shields)"
+	],
+	"cl": 0,
+	"weaponProf": [
+		"all simple weapons",
+		"all martial weapons"
+	]
+}
+{
+	"_id": {
+		"$oid": "5e4ed8e97a12849c102c5106"
+	},
+	"details": {
+		"alignment": "Chaotic Evil",
+		"deity": "Boccob",
+		"gender": "male",
+		"age": 16,
+		"height": "5 ft. 5 in.",
+		"weight": "230 lb.",
+		"skin": "Heavily scarred",
+		"hair": "Black, dirty and long",
+		"eyes": "Black",
+		"description": "Intimidating and agressive",
+		"personality": "Cruel",
+		"background": "Orc-raised"
+	},
+	"abilities": {
+		"str": {
+			"basic": 15,
+			"race": 2,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"dex": {
+			"basic": 12,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"con": {
+			"basic": 14,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"int": {
+			"basic": 12,
+			"race": -2,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"wis": {
+			"basic": 14,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"cha": {
+			"basic": 12,
+			"race": -2,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		}
+	},
+	"saves": {
+		"fort": {
+			"basic": 2,
+			"feat": 0,
+			"enhancement": 0,
+			"abil": 2
+		},
+		"ref": {
+			"basic": 0,
+			"feat": 0,
+			"enhancement": 0,
+			"abil": 1
+		},
+		"will": {
+			"basic": 0,
+			"feat": 0,
+			"enhancement": 0,
+			"abil": 2
+		}
+	},
+	"class": "barbarian",
+	"race": "half-orc",
+	"campaign": 3,
+	"bab": 1,
+	"skillPoints": 16,
+	"maxRanks": "4/2",
+	"raceFeatures": [
+		"darkvision 30ft.",
+		"orc blood"
+	],
+	"classFeatures": [
+		"fast movement",
+		"illiteracy",
+		"rage 1/day"
+	],
+	"hp": 14,
+	"speed": 30,
+	"size": "Medium",
+	"languages": [
+		"Common",
+		"Orc"
+	],
+	"money": 100,
+	"domains": [],
+	"spellsKnown": [],
+	"spellsPerDay": [],
+	"skills": [
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e5d369a3b57248f99cabb64"
+			},
+			"name": "Climb",
+			"classSkill": true,
+			"abil": "str",
+			"ranks": 1
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e5d369a3b57248f99cabb63"
+			},
+			"name": "Intimidate",
+			"classSkill": true,
+			"abil": "cha",
+			"ranks": 4
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e5d369a3b57248f99cabb62"
+			},
+			"name": "Jump",
+			"classSkill": true,
+			"abil": "str",
+			"ranks": 3
+		}
+	],
+	"feats": [],
+	"equipment": [],
+	"weapons": [],
+	"armor": [],
+	"spellList": [],
+	"createdAt": {
+		"$date": "2020-02-20T19:07:21.636Z"
+	},
+	"updatedAt": {
+		"$date": "2020-03-23T18:02:52.086Z"
+	},
+	"__v": 0,
+	"name": "Grundar",
+	"allowedAlignments": [
+		"Chaotic Evil",
+		"Chaotic Good",
+		"Chaotic Neutral",
+		"Neutral Evil",
+		"Netural Good"
+	],
+	"armorProf": [
+		"light armor",
+		"medium armor",
+		"shields (but not tower shields)"
+	],
+	"cl": 0,
+	"weaponProf": [
+		"all simple weapons",
+		"all martial weapons"
+	]
+}
+{
+	"_id": {
+		"$oid": "5e4ef8975ced40b9888e13ca"
+	},
+	"details": {
+		"description": "Grey elf sorcerer",
+		"personality": "Deep thinker and protector",
+		"background": "Elven lord",
+		"alignment": "Chaotic Good",
+		"deity": "Corellon Larethian",
+		"age": 121,
+		"gender": "male",
+		"height": "4 ft. 11 in.",
+		"weight": "145 lb.",
+		"eyes": "emerald",
+		"hair": "long brown with silver streak",
+		"skin": "pale white"
+	},
+	"abilities": {
+		"str": {
+			"basic": 10,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"dex": {
+			"basic": 14,
+			"race": 2,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"con": {
+			"basic": 12,
+			"race": -2,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"int": {
+			"basic": 15,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"wis": {
+			"basic": 10,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"cha": {
+			"basic": 14,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		}
+	},
+	"saves": {
+		"fort": {
+			"basic": 0,
+			"feat": 0,
+			"enhancement": 0,
+			"abil": 0
+		},
+		"ref": {
+			"basic": 0,
+			"feat": 0,
+			"enhancement": 0,
+			"abil": 3
+		},
+		"will": {
+			"basic": 2,
+			"feat": 0,
+			"enhancement": 0,
+			"abil": 0
+		}
+	},
+	"class": "sorcerer",
+	"race": "elf",
+	"campaign": 2,
+	"bab": 0,
+	"skillPoints": 16,
+	"maxRanks": "4/2",
+	"raceFeatures": [
+		"immunity to magic sleep effects",
+		"low-light vision",
+		"chance to notice secret/concealed doors within 5ft."
+	],
+	"classFeatures": [
+		"summon familiar"
+	],
+	"hp": 4,
+	"speed": 30,
+	"size": "Medium",
+	"languages": [
+		"Common",
+		"Elven"
+	],
+	"money": 150,
+	"domains": [],
+	"spellsKnown": [
+		4,
+		2
+	],
+	"spellsPerDay": [
+		5,
+		3
+	],
+	"name": "Zane Ta'tune",
+	"skills": [
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e78fb62d4ec6ee18722509c"
+			},
+			"name": "Concentration",
+			"classSkill": true,
+			"abil": "con",
+			"ranks": 4
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e78fb62d4ec6ee18722509d"
+			},
+			"name": "Craft",
+			"classSkill": true,
+			"abil": "int",
+			"ranks": 4
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e78fb62d4ec6ee18722509e"
+			},
+			"name": "Knowledge (arcana)",
+			"classSkill": true,
+			"abil": "int",
+			"ranks": 4
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e78fb62d4ec6ee18722509f"
+			},
+			"name": "Spellcraft",
+			"classSkill": true,
+			"abil": "int",
+			"ranks": 4
+		}
+	],
+	"feats": [
+		{
+			"class": false,
+			"race": false,
+			"_id": {
+				"$oid": "5e78fb6ad4ec6ee1872250ab"
+			},
+			"name": "Scribe Scroll",
+			"focus": null
+		},
+		{
+			"class": false,
+			"race": true,
+			"_id": {
+				"$oid": "5e78fb6ad4ec6ee1872250ac"
+			},
+			"name": "Martial Weapon Proficiency (longsword, rapier, longbow, shortbow)"
+		}
+	],
+	"equipment": [],
+	"weapons": [],
+	"armor": [],
+	"spellList": [
+		{
+			"_id": {
+				"$oid": "5e78fb23d4ec6ee187225096"
+			},
+			"name": "Detect Magic",
+			"level": 0
+		},
+		{
+			"_id": {
+				"$oid": "5e78fb23d4ec6ee187225097"
+			},
+			"name": "Prestidigitation",
+			"level": 0
+		},
+		{
+			"_id": {
+				"$oid": "5e78fb23d4ec6ee187225098"
+			},
+			"name": "Read Magic",
+			"level": 0
+		},
+		{
+			"_id": {
+				"$oid": "5e78fb23d4ec6ee187225099"
+			},
+			"name": "Arcane Mark",
+			"level": 0
+		},
+		{
+			"_id": {
+				"$oid": "5e78fb23d4ec6ee18722509a"
+			},
+			"name": "Mage Armor",
+			"level": 1
+		},
+		{
+			"_id": {
+				"$oid": "5e78fb23d4ec6ee18722509b"
+			},
+			"name": "Magic Missile",
+			"level": 1
+		}
+	],
+	"createdAt": {
+		"$date": "2020-02-20T21:22:31.739Z"
+	},
+	"updatedAt": {
+		"$date": "2020-03-23T18:09:46.639Z"
+	},
+	"__v": 0,
+	"allowedAlignments": [
+		"Chaotic Evil",
+		"Chaotic Good",
+		"Chaotic Neutral",
+		"Lawful Evil",
+		"Lawful Good",
+		"Lawful Neutral",
+		"Netural",
+		"Neutral Evil",
+		"Netural Good"
+	],
+	"armorProf": [],
+	"cl": 1,
+	"weaponProf": [
+		"all simple weapons"
+	]
+}
+{
+	"_id": {
+		"$oid": "5e4ffe701beeb6f131127ade"
+	},
+	"details": {
+		"description": "Big and imposing",
+		"personality": "Fearless and relentless; values strength and hard work.",
+		"background": "Came up hard",
+		"alignment": "Chaotic Evil",
+		"deity": "Kord",
+		"age": 17,
+		"gender": "male",
+		"height": "6 ft. 4 in.",
+		"weight": "238 lb.",
+		"eyes": "Brown",
+		"hair": "Black, long",
+		"skin": "Tanned and tattooed"
+	},
+	"abilities": {
+		"str": {
+			"basic": 16,
+			"race": 2,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"dex": {
+			"basic": 14,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"con": {
+			"basic": 14,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"int": {
+			"basic": 10,
+			"race": -2,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"wis": {
+			"basic": 14,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"cha": {
+			"basic": 10,
+			"race": -2,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		}
+	},
+	"saves": {
+		"fort": {
+			"basic": 2,
+			"feat": 0,
+			"enhancement": 0,
+			"abil": 2
+		},
+		"ref": {
+			"basic": 0,
+			"feat": 0,
+			"enhancement": 0,
+			"abil": 2
+		},
+		"will": {
+			"basic": 0,
+			"feat": 0,
+			"enhancement": 0,
+			"abil": 2
+		}
+	},
+	"class": "barbarian",
+	"race": "half-orc",
+	"campaign": 3,
+	"bab": 1,
+	"skillPoints": 12,
+	"maxRanks": "4/2",
+	"raceFeatures": [
+		"darkvision 30ft.",
+		"orc blood"
+	],
+	"classFeatures": [
+		"fast movement",
+		"illiteracy",
+		"rage 1/day"
+	],
+	"hp": 14,
+	"speed": 30,
+	"size": "Medium",
+	"languages": [
+		"Common",
+		"Orc"
+	],
+	"money": 100,
+	"domains": [],
+	"spellsKnown": [],
+	"spellsPerDay": [],
+	"name": "Trogdor",
+	"skills": [
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e6172190fc45b13fbb11569"
+			},
+			"name": "Climb",
+			"classSkill": true,
+			"abil": "str",
+			"ranks": 3
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e6172190fc45b13fbb1156a"
+			},
+			"name": "Craft",
+			"classSkill": true,
+			"abil": "int",
+			"ranks": 1
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e6172190fc45b13fbb1156b"
+			},
+			"name": "Intimidate",
+			"classSkill": true,
+			"abil": "cha",
+			"ranks": 2
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e6172190fc45b13fbb1156c"
+			},
+			"name": "Jump",
+			"classSkill": true,
+			"abil": "str",
+			"ranks": 4
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e6172190fc45b13fbb1156d"
+			},
+			"name": "Ride",
+			"classSkill": true,
+			"abil": "dex",
+			"ranks": 2
+		}
+	],
+	"feats": [
+		{
+			"class": false,
+			"race": false,
+			"_id": {
+				"$oid": "5e78fa75d4ec6ee18722506d"
+			},
+			"name": "Power Attack",
+			"focus": null
+		}
+	],
+	"equipment": [],
+	"weapons": [],
+	"armor": [],
+	"spellList": [],
+	"createdAt": {
+		"$date": "2020-02-21T15:59:44.615Z"
+	},
+	"updatedAt": {
+		"$date": "2020-03-23T18:05:41.371Z"
+	},
+	"__v": 0,
+	"allowedAlignments": [
+		"Chaotic Evil",
+		"Chaotic Good",
+		"Chaotic Neutral",
+		"Neutral Evil",
+		"Netural Good"
+	],
+	"armorProf": [
+		"light armor",
+		"medium armor",
+		"shields (but not tower shields)"
+	],
+	"cl": 0,
+	"weaponProf": [
+		"all simple weapons",
+		"all martial weapons"
+	]
+}
+{
+	"_id": {
+		"$oid": "5e552e6a1e0a0872656059fe"
+	},
+	"details": {
+		"alignment": "Chaotic Good",
+		"deity": "Boccob",
+		"gender": "male",
+		"age": 135,
+		"height": "5 ft. 5 in.",
+		"weight": "135 lb.",
+		"skin": "pale blue-white",
+		"hair": "black with silver streak",
+		"eyes": "green",
+		"description": "elven wizard",
+		"personality": "champion of elvenkind",
+		"background": "elvish lord of an ancient house"
+	},
+	"abilities": {
+		"str": {
+			"basic": 12,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"dex": {
+			"basic": 12,
+			"race": 2,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"con": {
+			"basic": 12,
+			"race": -2,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"int": {
+			"basic": 14,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"wis": {
+			"basic": 12,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"cha": {
+			"basic": 16,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		}
+	},
+	"saves": {
+		"fort": {
+			"basic": 2,
+			"feat": 0,
+			"enhancement": 0,
+			"abil": 0
+		},
+		"ref": {
+			"basic": 2,
+			"feat": 0,
+			"enhancement": 0,
+			"abil": 2
+		},
+		"will": {
+			"basic": 0,
+			"feat": 0,
+			"enhancement": 0,
+			"abil": 1
+		}
+	},
+	"class": "ranger",
+	"race": "elf",
+	"campaign": 3,
+	"bab": 1,
+	"skillPoints": 32,
+	"maxRanks": "4/2",
+	"raceFeatures": [
+		"immunity to magic sleep effects",
+		"low-light vision",
+		"chance to notice secret/concealed doors within 5ft."
+	],
+	"classFeatures": [
+		"favored enemy",
+		"bf_Track",
+		"wild empathy"
+	],
+	"hp": 8,
+	"speed": 30,
+	"size": "Medium",
+	"languages": [
+		"Common",
+		"Elven"
+	],
+	"money": 150,
+	"domains": [],
+	"spellsKnown": [],
+	"spellsPerDay": [],
+	"name": "Kriel Ta'tune",
+	"skills": [
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e5d7d4f030f3bc09120b09c"
+			},
+			"name": "Concentration",
+			"classSkill": true,
+			"abil": "con",
+			"ranks": 4
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e5d7d4f030f3bc09120b09d"
+			},
+			"name": "Knowledge (arcana)",
+			"classSkill": true,
+			"abil": "int",
+			"ranks": 2
+		},
+		{
+			"race": 2,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e5d7d4f030f3bc09120b09e"
+			},
+			"name": "Listen",
+			"classSkill": false,
+			"abil": "wis",
+			"ranks": 2
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e5d7d4f030f3bc09120b09f"
+			},
+			"name": "Spellcraft",
+			"classSkill": true,
+			"abil": "int",
+			"ranks": 4
+		}
+	],
+	"feats": [
+		{
+			"class": true,
+			"race": false,
+			"_id": {
+				"$oid": "5e78f9eed4ec6ee187225057"
+			},
+			"name": "Track",
+			"focus": null
+		},
+		{
+			"class": false,
+			"race": true,
+			"_id": {
+				"$oid": "5e78f9eed4ec6ee187225058"
+			},
+			"name": "Martial Weapon Proficiency (longsword, rapier, longbow, shortbow)"
+		}
+	],
+	"equipment": [],
+	"weapons": [],
+	"armor": [],
+	"spellList": [],
+	"createdAt": {
+		"$date": "2020-02-25T14:25:46.301Z"
+	},
+	"updatedAt": {
+		"$date": "2020-03-23T18:03:26.403Z"
+	},
+	"__v": 0,
+	"allowedAlignments": [
+		"Chaotic Evil",
+		"Chaotic Good",
+		"Chaotic Neutral",
+		"Lawful Evil",
+		"Lawful Good",
+		"Lawful Neutral",
+		"Netural",
+		"Neutral Evil",
+		"Netural Good"
+	],
+	"armorProf": [
+		"light armor",
+		"shields (but not tower shields)"
+	],
+	"cl": 0,
+	"weaponProf": [
+		"all simple weapons",
+		"all martial weapons"
+	]
+}
+{
+	"_id": {
+		"$oid": "5e552fd11e0a087265605a03"
+	},
+	"details": {
+		"description": "Human fighter",
+		"personality": "Loyal to his comrades",
+		"background": "War veteran",
+		"alignment": "Lawful Neutral",
+		"deity": "Boccob",
+		"age": 21,
+		"gender": "male",
+		"height": "5 ft. 11 in.",
+		"weight": "217 lb.",
+		"eyes": "Blue",
+		"hair": "Short blond",
+		"skin": "Battle-scarred"
+	},
+	"abilities": {
+		"str": {
+			"basic": 16,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"dex": {
+			"basic": 14,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"con": {
+			"basic": 14,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"int": {
+			"basic": 10,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"wis": {
+			"basic": 14,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"cha": {
+			"basic": 10,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		}
+	},
+	"saves": {
+		"fort": {
+			"basic": 2,
+			"feat": 0,
+			"enhancement": 0,
+			"abil": 2
+		},
+		"ref": {
+			"basic": 0,
+			"feat": 0,
+			"enhancement": 0,
+			"abil": 2
+		},
+		"will": {
+			"basic": 0,
+			"feat": 0,
+			"enhancement": 0,
+			"abil": 2
+		}
+	},
+	"class": "fighter",
+	"race": "human",
+	"campaign": 3,
+	"bab": 1,
+	"skillPoints": 12,
+	"maxRanks": "4/2",
+	"raceFeatures": [
+		"bonus feat",
+		"4 extra skill points"
+	],
+	"classFeatures": [
+		"bonus feat"
+	],
+	"hp": 12,
+	"speed": 30,
+	"size": "Medium",
+	"languages": [
+		"Common"
+	],
+	"money": 150,
+	"domains": [],
+	"spellsKnown": [],
+	"spellsPerDay": [],
+	"name": "Eridani Silverhair",
+	"skills": [
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e5d36693b57248f99cabb61"
+			},
+			"name": "Climb",
+			"classSkill": true,
+			"abil": "str",
+			"ranks": 1
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e5d36693b57248f99cabb60"
+			},
+			"name": "Craft",
+			"classSkill": true,
+			"abil": "int",
+			"ranks": 1
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e5d36693b57248f99cabb5f"
+			},
+			"name": "Handle Animal",
+			"classSkill": true,
+			"abil": "cha",
+			"ranks": 1
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e5d36693b57248f99cabb5e"
+			},
+			"name": "Jump",
+			"classSkill": true,
+			"abil": "str",
+			"ranks": 2
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e5d36693b57248f99cabb5d"
+			},
+			"name": "Ride",
+			"classSkill": true,
+			"abil": "dex",
+			"ranks": 2
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e5d36693b57248f99cabb5c"
+			},
+			"name": "Swim",
+			"classSkill": true,
+			"abil": "str",
+			"ranks": 2
+		}
+	],
+	"feats": [
+		{
+			"class": false,
+			"race": false,
+			"_id": {
+				"$oid": "5e67ec6aa91d9b596e97a2e8"
+			},
+			"name": "Weapon Focus (1st weapon)",
+			"focus": null
+		},
+		{
+			"class": false,
+			"race": false,
+			"_id": {
+				"$oid": "5e67ec6aa91d9b596e97a2e9"
+			},
+			"name": "Power Attack",
+			"focus": null
+		},
+		{
+			"class": false,
+			"race": false,
+			"_id": {
+				"$oid": "5e67ec6aa91d9b596e97a2ea"
+			},
+			"name": "Cleave",
+			"focus": null
+		}
+	],
+	"equipment": [
+		{
+			"qty": 1,
+			"_id": {
+				"$oid": "5e7a156b6ae043368c1b200e"
+			},
+			"name": "Flint \u0026 Steel",
+			"cost": 1,
+			"wt": 0
+		},
+		{
+			"qty": 1,
+			"_id": {
+				"$oid": "5e7a156b6ae043368c1b200f"
+			},
+			"name": "Backpack",
+			"cost": 2,
+			"wt": 2
+		},
+		{
+			"qty": 2,
+			"_id": {
+				"$oid": "5e7a156b6ae043368c1b2011"
+			},
+			"name": "Sunrod",
+			"cost": 2,
+			"wt": 1
+		},
+		{
+			"qty": 1,
+			"_id": {
+				"$oid": "5e7a156b6ae043368c1b2012"
+			},
+			"name": "Belt Pouch",
+			"cost": 1,
+			"wt": 0.5
+		},
+		{
+			"qty": 1,
+			"_id": {
+				"$oid": "5e7a156b6ae043368c1b2013"
+			},
+			"name": "Grappling Hook",
+			"cost": 1,
+			"wt": 4
+		},
+		{
+			"qty": 1,
+			"_id": {
+				"$oid": "5e7a156b6ae043368c1b2014"
+			},
+			"name": "Rope, silk (50 ft.)",
+			"cost": 10,
+			"wt": 5
+		},
+		{
+			"qty": 1,
+			"_id": {
+				"$oid": "5e7a156b6ae043368c1b2010"
+			},
+			"name": "Bedroll",
+			"cost": 0.1,
+			"wt": 5
+		},
+		{
+			"qty": 4,
+			"_id": {
+				"$oid": "5e7a18b56ae043368c1b2039"
+			},
+			"name": "Trail Rations (per day)",
+			"cost": 0.5,
+			"wt": 1
+		},
+		{
+			"qty": 4,
+			"_id": {
+				"$oid": "5e7a18b56ae043368c1b203a"
+			},
+			"name": "Torch",
+			"cost": 0.01,
+			"wt": 1
+		},
+		{
+			"qty": 1,
+			"_id": {
+				"$oid": "5e7a18b56ae043368c1b203b"
+			},
+			"name": "Whetstone",
+			"cost": 0.02,
+			"wt": 1
+		}
+	],
+	"weapons": [
+		{
+			"qty": 1,
+			"range": "-",
+			"_id": {
+				"$oid": "5e7a13fecfb9512c2a1c80a4"
+			},
+			"name": "Longsword",
+			"cost": 15,
+			"wt": 4,
+			"dmg": "1d8",
+			"crit": "19-20/x2",
+			"type": "S"
+		}
+	],
+	"armor": [
+		{
+			"qty": 1,
+			"_id": {
+				"$oid": "5e7a13fecfb9512c2a1c80a5"
+			},
+			"name": "Chain Shirt",
+			"cost": 100,
+			"bonus": 4,
+			"wt": 25,
+			"max": 4,
+			"pen": -2,
+			"fail": 20,
+			"speed": "30 ft."
+		}
+	],
+	"spellList": [],
+	"createdAt": {
+		"$date": "2020-02-25T14:31:45.619Z"
+	},
+	"updatedAt": {
+		"$date": "2020-03-24T14:37:33.221Z"
+	},
+	"__v": 0,
+	"armorProf": [
+		"light armor",
+		"medium armor",
+		"heavy armor",
+		"shields (including tower shields)"
+	],
+	"cl": 0,
+	"weaponProf": [
+		"all simple weapons",
+		"all martial weapons"
+	],
+	"allowedAlignments": [
+		"Chaotic Evil",
+		"Chaotic Good",
+		"Chaotic Neutral",
+		"Lawful Evil",
+		"Lawful Good",
+		"Lawful Neutral",
+		"Netural",
+		"Neutral Evil",
+		"Netural Good"
+	],
+	"remainingMoney": 13.84
+}
+{
+	"_id": {
+		"$oid": "5e5d38223b57248f99cabb84"
+	},
+	"details": {
+		"alignment": "Chaotic Evil",
+		"deity": "Boccob",
+		"gender": "male",
+		"age": 26,
+		"height": "2 ft. 10 in.",
+		"weight": "61 lb.",
+		"skin": "ruddy",
+		"hair": "long brown",
+		"eyes": "brown",
+		"description": "halfling rogue",
+		"personality": "entrepreneurial, opportunistic",
+		"background": "raised in the streets of Lerpaw"
+	},
+	"abilities": {
+		"str": {
+			"basic": 14,
+			"race": -2,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"dex": {
+			"basic": 16,
+			"race": 2,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"con": {
+			"basic": 14,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"int": {
+			"basic": 14,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"wis": {
+			"basic": 10,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"cha": {
+			"basic": 10,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		}
+	},
+	"saves": {
+		"fort": {
+			"basic": 0,
+			"feat": 0,
+			"enhancement": 0,
+			"abil": 2
+		},
+		"ref": {
+			"basic": 2,
+			"feat": 0,
+			"enhancement": 0,
+			"abil": 4
+		},
+		"will": {
+			"basic": 0,
+			"feat": 0,
+			"enhancement": 0,
+			"abil": 0
+		}
+	},
+	"class": "rogue",
+	"race": "halfling",
+	"campaign": 3,
+	"bab": 0,
+	"skillPoints": 40,
+	"maxRanks": "4/2",
+	"raceFeatures": [
+		"+1 bonus on all saving throws",
+		"+2 bonus on saves vs. fear",
+		"+1 attacks with thrown weapons or slings"
+	],
+	"classFeatures": [
+		"sneak attack +1d6",
+		"trapfinding"
+	],
+	"hp": 8,
+	"speed": 20,
+	"size": "Small",
+	"languages": [
+		"Common",
+		"Halfling"
+	],
+	"money": 85,
+	"domains": [],
+	"spellsKnown": [],
+	"spellsPerDay": [],
+	"name": "Blue",
+	"skills": [
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e6263b94c356637530e0580"
+			},
+			"name": "Appraise",
+			"classSkill": true,
+			"abil": "int",
+			"ranks": 4
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e6263b94c356637530e0581"
+			},
+			"name": "Balance",
+			"classSkill": true,
+			"abil": "dex",
+			"ranks": 2
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e6263b94c356637530e0582"
+			},
+			"name": "Bluff",
+			"classSkill": true,
+			"abil": "cha",
+			"ranks": 2
+		},
+		{
+			"race": 2,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e6263b94c356637530e0583"
+			},
+			"name": "Climb",
+			"classSkill": true,
+			"abil": "str",
+			"ranks": 2
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e6263b94c356637530e0584"
+			},
+			"name": "Disable Device",
+			"classSkill": true,
+			"abil": "cha",
+			"ranks": 4
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e6263b94c356637530e0585"
+			},
+			"name": "Disguise",
+			"classSkill": true,
+			"abil": "cha",
+			"ranks": 2
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e6263b94c356637530e0586"
+			},
+			"name": "Escape Artist",
+			"classSkill": true,
+			"abil": "dex",
+			"ranks": 2
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e6263b94c356637530e0587"
+			},
+			"name": "Forgery",
+			"classSkill": true,
+			"abil": "int",
+			"ranks": 1
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e6263b94c356637530e0588"
+			},
+			"name": "Gather Information",
+			"classSkill": true,
+			"abil": "cha",
+			"ranks": 1
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e6263b94c356637530e0589"
+			},
+			"name": "Hide",
+			"classSkill": true,
+			"abil": "dex",
+			"ranks": 4
+		},
+		{
+			"race": 2,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e6263b94c356637530e058a"
+			},
+			"name": "Listen",
+			"classSkill": true,
+			"abil": "wis",
+			"ranks": 4
+		},
+		{
+			"race": 2,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e6263b94c356637530e058b"
+			},
+			"name": "Move Silently",
+			"classSkill": true,
+			"abil": "dex",
+			"ranks": 4
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e6263b94c356637530e058c"
+			},
+			"name": "Search",
+			"classSkill": true,
+			"abil": "int",
+			"ranks": 4
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e6263b94c356637530e058d"
+			},
+			"name": "Spot",
+			"classSkill": true,
+			"abil": "wis",
+			"ranks": 4
+		}
+	],
+	"feats": [
+		{
+			"class": false,
+			"race": false,
+			"_id": {
+				"$oid": "5e67e78a29acad5834b530d5"
+			},
+			"name": "Dodge",
+			"focus": null
+		}
+	],
+	"equipment": [],
+	"weapons": [],
+	"armor": [],
+	"spellList": [],
+	"createdAt": {
+		"$date": "2020-03-02T16:45:22.389Z"
+	},
+	"updatedAt": {
+		"$date": "2020-03-13T19:59:52.959Z"
+	},
+	"__v": 0,
+	"armorProf": [
+		"light armor"
+	],
+	"cl": 0,
+	"weaponProf": [
+		"all simple weapons",
+		"hand crossbow",
+		"rapier",
+		"sap",
+		"shortbow",
+		"short sword"
+	],
+	"allowedAlignments": [
+		"Chaotic Evil",
+		"Chaotic Good",
+		"Chaotic Neutral",
+		"Lawful Evil",
+		"Lawful Good",
+		"Lawful Neutral",
+		"Netural",
+		"Neutral Evil",
+		"Netural Good"
+	]
+}
+{
+	"_id": {
+		"$oid": "5e7a1be4a775573aa12a61d0"
+	},
+	"details": {
+		"description": "Slim but radiates power",
+		"personality": "Seeker of personal power",
+		"background": "Trained at a sorcerer's academy",
+		"alignment": "Lawful Neutral",
+		"deity": "Boccob",
+		"age": 17,
+		"gender": "male",
+		"height": "6 ft. 0 in.",
+		"weight": "170 lb.",
+		"eyes": "Black",
+		"hair": "Black",
+		"skin": "Dark brown"
+	},
+	"abilities": {
+		"str": {
+			"basic": 10,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"dex": {
+			"basic": 14,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"con": {
+			"basic": 14,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"int": {
+			"basic": 12,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"wis": {
+			"basic": 12,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		},
+		"cha": {
+			"basic": 16,
+			"race": 0,
+			"level": 0,
+			"inherent": 0,
+			"enhancement": 0
+		}
+	},
+	"saves": {
+		"fort": {
+			"basic": 0,
+			"feat": 0,
+			"enhancement": 0,
+			"abil": 2
+		},
+		"ref": {
+			"basic": 0,
+			"feat": 0,
+			"enhancement": 0,
+			"abil": 2
+		},
+		"will": {
+			"basic": 2,
+			"feat": 0,
+			"enhancement": 0,
+			"abil": 1
+		}
+	},
+	"class": "sorcerer",
+	"race": "human",
+	"allowedAlignments": [
+		"Chaotic Evil",
+		"Chaotic Good",
+		"Chaotic Neutral",
+		"Lawful Evil",
+		"Lawful Good",
+		"Lawful Neutral",
+		"Netural",
+		"Neutral Evil",
+		"Netural Good"
+	],
+	"campaign": 3,
+	"bab": 0,
+	"skillPoints": 16,
+	"maxRanks": "4/2",
+	"raceFeatures": [
+		"bonus feat",
+		"4 extra skill points"
+	],
+	"classFeatures": [
+		"summon familiar"
+	],
+	"weaponProf": [
+		"all simple weapons"
+	],
+	"armorProf": [
+		"none"
+	],
+	"hp": 6,
+	"speed": 30,
+	"size": "Medium",
+	"languages": [
+		"Common"
+	],
+	"money": 150,
+	"remainingMoney": 120.9,
+	"domains": [],
+	"cl": 1,
+	"spellsKnown": [
+		4,
+		2
+	],
+	"spellsPerDay": [
+		5,
+		3
+	],
+	"name": "Phobos",
+	"skills": [
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e7a1cb4a775573aa12a61d7"
+			},
+			"name": "Bluff",
+			"classSkill": true,
+			"abil": "cha",
+			"ranks": 2
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e7a1cb4a775573aa12a61d8"
+			},
+			"name": "Concentration",
+			"classSkill": true,
+			"abil": "con",
+			"ranks": 4
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e7a1cb4a775573aa12a61d9"
+			},
+			"name": "Craft",
+			"classSkill": true,
+			"abil": "int",
+			"ranks": 2
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e7a1cb4a775573aa12a61da"
+			},
+			"name": "Knowledge (arcana)",
+			"classSkill": true,
+			"abil": "int",
+			"ranks": 4
+		},
+		{
+			"race": 0,
+			"class": 0,
+			"feat": 0,
+			"_id": {
+				"$oid": "5e7a1cb4a775573aa12a61db"
+			},
+			"name": "Spellcraft",
+			"classSkill": true,
+			"abil": "int",
+			"ranks": 4
+		}
+	],
+	"feats": [
+		{
+			"class": false,
+			"race": false,
+			"_id": {
+				"$oid": "5e7a1cd4a775573aa12a61e7"
+			},
+			"name": "Scribe Scroll",
+			"focus": null
+		},
+		{
+			"class": false,
+			"race": false,
+			"_id": {
+				"$oid": "5e7a1cd4a775573aa12a61e8"
+			},
+			"name": "Dodge",
+			"focus": null
+		}
+	],
+	"equipment": [
+		{
+			"qty": 1,
+			"_id": {
+				"$oid": "5e7a1d5ca9e10d3adacc9f45"
+			},
+			"name": "Backpack",
+			"cost": 2,
+			"wt": 2
+		},
+		{
+			"qty": 1,
+			"_id": {
+				"$oid": "5e7a1d5ca9e10d3adacc9f46"
+			},
+			"name": "Bedroll",
+			"cost": 0.1,
+			"wt": 5
+		},
+		{
+			"qty": 1,
+			"_id": {
+				"$oid": "5e7a1d5ca9e10d3adacc9f47"
+			},
+			"name": "Flint \u0026 Steel",
+			"cost": 1,
+			"wt": 0
+		},
+		{
+			"qty": 1,
+			"_id": {
+				"$oid": "5e7a1d5ca9e10d3adacc9f48"
+			},
+			"name": "Grappling Hook",
+			"cost": 1,
+			"wt": 4
+		},
+		{
+			"qty": 2,
+			"_id": {
+				"$oid": "5e7a1d5ca9e10d3adacc9f49"
+			},
+			"name": "Belt Pouch",
+			"cost": 1,
+			"wt": 0.5
+		},
+		{
+			"qty": 4,
+			"_id": {
+				"$oid": "5e7a1d5ca9e10d3adacc9f4a"
+			},
+			"name": "Trail Rations (per day)",
+			"cost": 0.5,
+			"wt": 1
+		},
+		{
+			"qty": 1,
+			"_id": {
+				"$oid": "5e7a1d5ca9e10d3adacc9f4b"
+			},
+			"name": "Rope, silk (50 ft.)",
+			"cost": 10,
+			"wt": 5
+		},
+		{
+			"qty": 1,
+			"_id": {
+				"$oid": "5e7a1d5ca9e10d3adacc9f4c"
+			},
+			"name": "Waterskin",
+			"cost": 1,
+			"wt": 4
+		},
+		{
+			"qty": 4,
+			"_id": {
+				"$oid": "5e7a1d5ca9e10d3adacc9f4d"
+			},
+			"name": "Sunrod",
+			"cost": 2,
+			"wt": 1
+		}
+	],
+	"weapons": [
+		{
+			"qty": 1,
+			"range": "-",
+			"_id": {
+				"$oid": "5e7a1d5ca9e10d3adacc9f4e"
+			},
+			"name": "Quarterstaff",
+			"cost": 0,
+			"wt": 4,
+			"dmg": "1d6",
+			"crit": "x2",
+			"type": "B"
+		},
+		{
+			"qty": 1,
+			"range": "10 ft.",
+			"_id": {
+				"$oid": "5e7a1d5ca9e10d3adacc9f4f"
+			},
+			"name": "Dagger",
+			"cost": 2,
+			"wt": 1,
+			"dmg": "1d4",
+			"crit": "19-20/x2",
+			"type": "P/S"
+		}
+	],
+	"armor": [],
+	"spellList": [
+		{
+			"_id": {
+				"$oid": "5e7a1c7ba775573aa12a61d1"
+			},
+			"name": "Arcane Mark",
+			"level": 0
+		},
+		{
+			"_id": {
+				"$oid": "5e7a1c7ba775573aa12a61d2"
+			},
+			"name": "Detect Magic",
+			"level": 0
+		},
+		{
+			"_id": {
+				"$oid": "5e7a1c7ba775573aa12a61d3"
+			},
+			"name": "Light",
+			"level": 0
+		},
+		{
+			"_id": {
+				"$oid": "5e7a1c7ba775573aa12a61d5"
+			},
+			"name": "Mage Armor",
+			"level": 1
+		},
+		{
+			"_id": {
+				"$oid": "5e7a1c7ba775573aa12a61d6"
+			},
+			"name": "Magic Missile",
+			"level": 1
+		},
+		{
+			"_id": {
+				"$oid": "5e7a1c7ba775573aa12a61d4"
+			},
+			"name": "Prestidigitation",
+			"level": 0
+		}
+	],
+	"createdAt": {
+		"$date": "2020-03-24T14:40:36.540Z"
+	},
+	"updatedAt": {
+		"$date": "2020-03-24T19:45:25.280Z"
+	},
+	"__v": 0
+}

@@ -1,0 +1,305 @@
+div.equip-container {
+  position: absolute;
+  width: 300px;
+  height: 430px;
+  top: 50%;
+  left: 50%;
+  font-family: sans-serif;
+  transform: translate(-50%, -50%);
+  background-color: #333333c7;
+  border: 4px groove #2c2b2bc7;
+}
+
+div.equip-container .btn-equip {
+  display: block;
+  margin: 20px auto;
+  width: 150px;
+}
+
+h2.equipLabel {
+  text-align: center;
+  color: antiquewhite;
+  margin-top: 10px;
+}
+
+h3.money {
+  text-align: center;
+  margin-top: 20px;
+}
+
+h3.underLimit {
+  color: lightgreen;
+}
+
+.equip-display {
+  height: 260px;
+  overflow: auto;
+  border-bottom: 2px inset black;
+}
+
+.main-display {
+  height: 276px;
+}
+
+
+/* ==============================================================================================
+    EQUIPMENT TABLES
+============================================================================================== */
+
+.tbl-equip {
+  color: white;
+  border-collapse: collapse;
+  margin-left: 5px;
+}
+
+.tbl-equip tr:nth-child(even) {
+  background-color: #11111181;
+}
+
+.tbl-equip tbody tr:hover {
+  background-color: silver;
+  color: black;
+}
+
+.tbl-equip tbody tr td {
+  padding: 3px;
+}
+
+.tbl-equip thead {
+  margin-top: 14px;
+  color: gold;
+  font-size: 12px;
+  text-align: left;
+  border-bottom: 2px inset #333;
+}
+
+.equip-input {
+  font-size: 12px;
+  width: 50px;
+}
+
+
+/* ==============================================================================================
+    ARMOR TABLE
+============================================================================================== */
+
+.tbl-armor tbody tr td:first-child {
+  width: 140px;
+}
+
+.tbl-armor thead tr th:first-child {
+  width: 110px;
+}
+
+.tbl-armor tbody tr td:nth-child(2) {
+  width: 35px;
+  text-align: center;
+}
+
+.tbl-armor thead tr th:nth-child(2) {
+  width: 34px;
+  text-align: center;
+}
+
+.tbl-armor tbody tr td:nth-child(3) {
+  width: 45px;
+  text-align: center;
+}
+
+.tbl-armor thead tr th:nth-child(3) {
+  width: 35px;
+  text-align: center;
+}
+
+.tbl-armor tbody tr td:nth-child(4) {
+  width: 45px;
+  text-align: center;
+}
+
+.tbl-armor thead tr th:nth-child(4) {
+  width: 35px;
+  text-align: center;
+}
+
+.tbl-armor thead tr th:nth-child(5) {
+  width: 55px;
+  text-align: center;
+}
+
+
+/* ==============================================================================================
+    GEAR TABLE
+============================================================================================== */
+
+.tbl-gear tbody tr td:first-child {
+  width: 170px;
+}
+
+.tbl-gear thead tr th:first-child  {
+  width: 130px;
+}
+
+.tbl-gear tbody tr td:nth-child(2) {
+  width: 60px;
+  text-align: center;
+}
+
+.tbl-gear thead tr th:nth-child(2) {
+  width: 40px;
+  text-align: center;
+}
+
+.tbl-gear tbody tr td:nth-child(3),
+.tbl-gear thead tr th:nth-child(3) {
+  width: 50px;
+  text-align: center;
+}
+
+.tbl-gear tbody tr td:nth-child(4),
+.tbl-gear thead tr th:nth-child(4) {
+  width: 55px;
+  text-align: center;
+}
+
+
+/* ==============================================================================================
+    WEAPON TABLE
+============================================================================================== */
+
+.tbl-weapons tbody tr td:first-child {
+  width: 160px;
+}
+
+.tbl-weapons thead tr th:first-child {
+  width: 110px;
+}
+
+.tbl-weapons tbody tr td:nth-child(2) {
+  width: 50px;
+  text-align: center;
+}
+
+.tbl-weapons thead tr th:nth-child(2) {
+  width: 30px;
+  text-align: center;
+}
+
+.tbl-weapons tbody tr td:nth-child(3) {
+  width: 45px;
+  text-align: center;
+}
+
+.tbl-weapons thead tr th:nth-child(3) {
+  width: 52px;
+  text-align: center;
+}
+
+.tbl-weapons tbody tr td:nth-child(4) {
+  width: 45px;
+  text-align: center;
+}
+
+.tbl-weapons thead tr th:nth-child(4) {
+  width: 25px;
+  text-align: center;
+}
+
+.tbl-weapons thead tr th:nth-child(5) {
+  width: 55px;
+  text-align: center;
+}
+
+
+/* ==============================================================================================
+    CONFIRMATION DIALOG
+============================================================================================== */
+
+p.e-list {
+  margin: 10px;
+}
+
+p.e-list span {
+  font-weight: bold;
+}
+
+
+/* ==============================================================================================
+    MEDIA QUERIES
+============================================================================================== */
+
+@media only screen and (min-width: 720px) {
+  div.equip-container {
+    width: 410px;
+  }
+
+  .tbl-gear tbody tr td:first-child,
+  .tbl-gear thead tr th:first-child  {
+    width: 215px;
+  }
+
+  .tbl-gear tbody tr td:nth-child(2),
+  .tbl-gear thead tr th:nth-child(2) {
+    width: 60px;
+    text-align: center;
+  }
+
+  .tbl-gear tbody tr td:nth-child(3),
+  .tbl-gear thead tr th:nth-child(3) {
+    width: 50px;
+    text-align: center;
+  }
+
+  .tbl-gear tbody tr td:nth-child(4),
+  .tbl-gear thead tr th:nth-child(4) {
+    width: 55px;
+    text-align: center;
+  }
+
+  .tbl-weapons tbody tr td:first-child,
+  .tbl-weapons thead tr th:first-child {
+    width: 182px;
+  }
+
+  .tbl-weapons tbody tr td:nth-child(2),
+  .tbl-weapons thead tr th:nth-child(2) {
+    width: 50px;
+  }
+
+  .tbl-weapons tbody tr td:nth-child(3),
+  .tbl-weapons thead tr th:nth-child(3) {
+    width: 45px;
+  }
+
+  .tbl-weapons tbody tr td:nth-child(4),
+  .tbl-weapons thead tr th:nth-child(4) {
+    width: 45px;
+  }
+
+  .tbl-weapons thead tr th:nth-child(5) {
+    width: 55px;
+  }
+
+  .tbl-armor tbody tr td:first-child,
+  .tbl-armor thead tr th:first-child {
+    width: 189px;
+  }
+
+  .tbl-armor tbody tr td:nth-child(2),
+  .tbl-armor thead tr th:nth-child(2) {
+    width: 45px;
+  }
+
+  .tbl-armor tbody tr td:nth-child(3),
+  .tbl-armor thead tr th:nth-child(3) {
+    width: 45px;
+  }
+
+  .tbl-armor tbody tr td:nth-child(4),
+  .tbl-armor thead tr th:nth-child(4) {
+    width: 45px;
+  }
+
+  .tbl-armor thead tr th:nth-child(5) {
+    width: 55px;
+  }
+}

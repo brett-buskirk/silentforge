@@ -1,0 +1,2468 @@
+{
+	"_id": {
+		"$oid": "5e566c0ce37231c9b7d30e4f"
+	},
+	"campaigns": [
+		{
+			"type": "low-powered",
+			"points": 15.0
+		},
+		{
+			"type": "challenging",
+			"points": 22.0
+		},
+		{
+			"type": "tougher",
+			"points": 28.0
+		},
+		{
+			"type": "high-powered",
+			"points": 32.0
+		}
+	],
+	"classes": [
+		"barbarian",
+		"bard",
+		"fighter",
+		"ranger",
+		"rogue",
+		"sorcerer"
+	],
+	"races": [
+		"dwarf",
+		"elf",
+		"gnome",
+		"half-orc",
+		"halfling",
+		"human"
+	],
+	"descriptions": {
+		"barbarian": [
+			"The barbarian is an excellent warrior. Where the fighter's skill in combat comes from training and discipline, however, the barbarian has a powerful rage. While in this  berserk fury, he becomes stronger and tougher, better able to defeat his foes and withstand their attacks. These rages leave him winded and he has the energy for only a few such spectacular displays per day, but those few rages are usually sufficient. He is at home in the wild, and he runs at great speed."
+		],
+		"bard": [
+			"A bard brings forth magic from his soul, not from a book. He can cast only a small number of spells, but he can do so without selecting or preparing them in advance. His magic emphasizes charms and illusions over the more dramatic evocation spells that wizards and sorcerers often use.",
+			"In addition to spells, a bard works magic with his music and poetry. He can encourage his allies, hold his audience rapt, and counter magical effects that rely on speech or sound.",
+			"Bards have some of the skills that rogues have, although bards are not as focused on skill mastery as rogues are. A bard listens to stories as well as telling them, of course, so he has a vast knowledge of local events and noteworthy items."
+		],
+		"fighter": [
+			"Of all the classes, the fighter has the best all-around fighting capability (hence the name). Fighters are familiar with all the standard weapons and armors. In addition to general fighting prowess, each fighter develops particular specialities of his own. A given fighter may be especially capable with certain weapons; another might be trained to execute specific fancy maneuvers. As fighters gain experience, they get more opportunities to develop their fighting skills. Thanks to their focus on combat maneuvers, they can master the most difficult ones relatively quickly."
+		],
+		"ranger": [
+			"A ranger can use a variety of weapons and is quite capable in combat. His skills allow him to suvive in the wilderness, to find his prey, and to avoid detection. He also has special knowledge about certain types of creatures, which makes it easier for him to find and defeat such foes. Finally, an experienced ranger has such a tie to nature that he can actually draw upon natural power to cast divine spells, much as a druid does."
+		],
+		"rogue": [
+			"Rogues are highly skilled, and they can concentrate on developing any of several categories of skills. While not equal to members of many other classes in combat, a rogue knows how to hit where it hurts, and she can dish out a lot of damage with a sneak attack",
+			"Rogues have a sixth sense when it comes to avoiding danger. Experienced rogues develop mystical powers and skills as they master the arts of stealth, evasion, and sneak attacks. In addition,while not capable of casting spells on their own, rogues can 'fake it' well enough to cast spells from scrolls, active wands, and use just about any other magic item."
+		],
+		"sorcerer": [
+			"Sorcerers cast spells through innate power rather than through careful training and study. Their magic is intuitive rather than logical. Sorcerers know fewer spells than wizards do and acquire powerful spells more slowly than wizards, but they can cast spells more often and have no need to select and prepare their spells ahead of time. Sorcerers do not specialize in certain schools of magic the way wizards sometimes do.",
+			"Since sorcerers gain their powers without undergoing the years of rigorous study that wizards go through, they don't have the background of arcane knowledge that most wizards have. However, they do have more time to learn fighting skills, and they are proficient with simple weapons."
+		]
+	},
+	"personalities": {
+		"dwarf": [
+			"Dwarves are slow to laugh or jest and suspicious of strangers, but they are generous to those few who earn their trust. Dwarves value gold, gems, jewelry, and art objects made with these precious materials, and they have been known to succumb to greed. They fight neither recklessly nor timidly, but with careful courage and tenacity. Their sense of justice is strong, but at its worst it can turn into a thirst for vengeance. Among gnomes, who get along famously with dwarves, a mild oath is 'If I'm lying, may I cross a dwarf.'"
+		],
+		"elf": [
+			"Elves are more often amused than excited, and more likely to be curious than greedy. With such a long life span, they tend to keep a broad perspective on events, remaining aloof and unfazed by petty happenstance. When pursuing a goal, however, whether an adventure mission or learning a new skill or art, they can be focused and relentless. They are slow to make friends and enemies, and even slower to forget them. They reply to petty insults with disdain and to serious insults with vengeance."
+		],
+		"half-orc": [
+			"Half-orcs tend to be short-tempered and sullen. They would rather act than ponder and would rather fight than argue. Those who are successful, however, are the ones with enough self-control to live in a civilized land, not the crazy ones.",
+			"Half-orcs love simple pleasures such as feasting, drinking, boasting, singing, wrestling, drumming, and wild dancing. Refined enjoyments such as poetry, courtly dancing, and philosophy are lost on them. At the right sort of party, a half-orc is an asset. At the duchess's grand ball, he's a liability."
+		],
+		"gnome": [
+			"Gnomes adore animals, beautiful gems, and jokes of all kinds. Members of this race have a great sense of humor, and while they love puns, jokes, and games, they also relish tricks - the more intricate the better. They apply the same dedication to more practical arts, such as engineering, as they do to their pranks.",
+			"Gnomes are inquisitive. They love to find things out by personal experience. At times they're even reckless. Their curiosity makes them skilled engineers, since they are always trying new ways to build things. Sometimes a gnome pulls a prank just to see how the people involved will react."
+		],
+		"halfling": [
+			"Halflings prefer trouble to boredom. They are notoriously curious. Relying on their ability to survive or escape danger, they demonstrate a daring that many larger people can't match. Halfling clans are nomadic, wandering wherever circumstances and curiosity take them. Halflings enjoy wealth and the pleasures it can bring, and they tend to spend gold as quickly as they acquire it.",
+			"Halflings are also famous collectors. While more orthodox halflings may collect weapons, books, or jewelry, some collect such objects as the hides of wild beasts -- or even the beasts themselves. Wealthy halflings sometimes commission adventurers to retrieve exotic items to complete their collections."
+		],
+		"human": [
+			"Humans are the most adaptable, flexible, and ambitions people among the common races. They are diverse in their tastes, moral, customs, and habits. Others accuse them of having little respect for history, but it's only natural that humans, with their relatively short life spans and constantly changing cultures, would have a shorter collective memory than dwarves, elves, gnomes, or halflings."
+		]
+	},
+	"languages": [
+		"Abyssal",
+		"Aquan",
+		"Auran",
+		"Celestial",
+		"Common",
+		"Draconic",
+		"Dwarven",
+		"Elven",
+		"Giant",
+		"Gnome",
+		"Gnoll",
+		"Halfling",
+		"Ignan",
+		"Infernal",
+		"Orc",
+		"Sylvan",
+		"Terran",
+		"Undercommon"
+	],
+	"abilities": [
+		"str",
+		"dex",
+		"con",
+		"int",
+		"wis",
+		"cha"
+	],
+	"skills": [
+		{
+			"name": "Appraise",
+			"abil": "int",
+			"classes": [
+				"bard",
+				"rogue"
+			]
+		},
+		{
+			"name": "Balance",
+			"abil": "dex",
+			"classes": [
+				"bard",
+				"rogue"
+			]
+		},
+		{
+			"name": "Bluff",
+			"abil": "cha",
+			"classes": [
+				"bard",
+				"rogue",
+				"sorcerer"
+			]
+		},
+		{
+			"name": "Climb",
+			"abil": "str",
+			"classes": [
+				"barbarian",
+				"bard",
+				"fighter",
+				"ranger",
+				"rogue"
+			]
+		},
+		{
+			"name": "Concentration",
+			"abil": "con",
+			"classes": [
+				"bard",
+				"ranger",
+				"sorcerer"
+			]
+		},
+		{
+			"name": "Craft",
+			"abil": "int",
+			"classes": [
+				"barbarian",
+				"bard",
+				"fighter",
+				"ranger",
+				"rogue",
+				"sorcerer"
+			]
+		},
+		{
+			"name": "Decipher Script",
+			"abil": "int",
+			"classes": [
+				"bard",
+				"rogue"
+			]
+		},
+		{
+			"name": "Diplomacy",
+			"abil": "cha",
+			"classes": [
+				"bard",
+				"rogue"
+			]
+		},
+		{
+			"name": "Disable Device",
+			"abil": "cha",
+			"classes": [
+				"rogue"
+			]
+		},
+		{
+			"name": "Disguise",
+			"abil": "cha",
+			"classes": [
+				"bard",
+				"rogue"
+			]
+		},
+		{
+			"name": "Escape Artist",
+			"abil": "dex",
+			"classes": [
+				"bard",
+				"rogue"
+			]
+		},
+		{
+			"name": "Forgery",
+			"abil": "int",
+			"classes": [
+				"rogue"
+			]
+		},
+		{
+			"name": "Gather Information",
+			"abil": "cha",
+			"classes": [
+				"bard",
+				"rogue"
+			]
+		},
+		{
+			"name": "Handle Animal",
+			"abil": "cha",
+			"classes": [
+				"barbarian",
+				"fighter",
+				"ranger"
+			]
+		},
+		{
+			"name": "Heal",
+			"abil": "wis",
+			"classes": [
+				"ranger"
+			]
+		},
+		{
+			"name": "Hide",
+			"abil": "dex",
+			"classes": [
+				"bard",
+				"ranger",
+				"rogue"
+			]
+		},
+		{
+			"name": "Intimidate",
+			"abil": "cha",
+			"classes": [
+				"barbarian",
+				"fighter",
+				"rogue"
+			]
+		},
+		{
+			"name": "Jump",
+			"abil": "str",
+			"classes": [
+				"barbarian",
+				"bard",
+				"fighter",
+				"ranger",
+				"rogue"
+			]
+		},
+		{
+			"name": "Knowledge (arcana)",
+			"abil": "int",
+			"classes": [
+				"bard",
+				"sorcerer"
+			]
+		},
+		{
+			"name": "Knowledge (arch./eng.)",
+			"abil": "int",
+			"classes": [
+				"bard"
+			]
+		},
+		{
+			"name": "Knowledge (dungeoneering)",
+			"abil": "int",
+			"classes": [
+				"bard",
+				"ranger"
+			]
+		},
+		{
+			"name": "Knowledge (geography)",
+			"abil": "int",
+			"classes": [
+				"bard",
+				"ranger"
+			]
+		},
+		{
+			"name": "Knowledge (history)",
+			"abil": "int",
+			"classes": [
+				"bard"
+			]
+		},
+		{
+			"name": "Knowledge (local)",
+			"abil": "int",
+			"classes": [
+				"bard",
+				"rogue"
+			]
+		},
+		{
+			"name": "Knowledge (nature)",
+			"abil": "int",
+			"classes": [
+				"bard",
+				"ranger"
+			]
+		},
+		{
+			"name": "Knowledge (nobility/royalty)",
+			"abil": "int",
+			"classes": [
+				"bard"
+			]
+		},
+		{
+			"name": "Knowledge (religion)",
+			"abil": "int",
+			"classes": [
+				"bard"
+			]
+		},
+		{
+			"name": "Knowledge (the planes)",
+			"abil": "int",
+			"classes": [
+				"bard"
+			]
+		},
+		{
+			"name": "Listen",
+			"abil": "wis",
+			"classes": [
+				"barbarian",
+				"bard",
+				"ranger",
+				"rogue"
+			]
+		},
+		{
+			"name": "Move Silently",
+			"abil": "dex",
+			"classes": [
+				"bard",
+				"ranger",
+				"rogue"
+			]
+		},
+		{
+			"name": "Open Lock",
+			"abil": "dex",
+			"classes": [
+				"rogue"
+			]
+		},
+		{
+			"name": "Perform",
+			"abil": "cha",
+			"classes": [
+				"bard",
+				"rogue"
+			]
+		},
+		{
+			"name": "Profession",
+			"abil": "wis",
+			"classes": [
+				"bard",
+				"ranger",
+				"rogue",
+				"sorcerer"
+			]
+		},
+		{
+			"name": "Ride",
+			"abil": "dex",
+			"classes": [
+				"barbarian",
+				"fighter",
+				"ranger"
+			]
+		},
+		{
+			"name": "Search",
+			"abil": "int",
+			"classes": [
+				"ranger",
+				"rogue"
+			]
+		},
+		{
+			"name": "Sense Motive",
+			"abil": "wis",
+			"classes": [
+				"bard",
+				"rogue"
+			]
+		},
+		{
+			"name": "Sleight of Hand",
+			"abil": "dex",
+			"classes": [
+				"bard",
+				"rogue"
+			]
+		},
+		{
+			"name": "Speak Language",
+			"abil": "none",
+			"classes": [
+				"bard"
+			]
+		},
+		{
+			"name": "Spellcraft",
+			"abil": "int",
+			"classes": [
+				"bard",
+				"sorcerer"
+			]
+		},
+		{
+			"name": "Spot",
+			"abil": "wis",
+			"classes": [
+				"ranger",
+				"rogue"
+			]
+		},
+		{
+			"name": "Survival",
+			"abil": "wis",
+			"classes": [
+				"barbarian",
+				"ranger"
+			]
+		},
+		{
+			"name": "Swim",
+			"abil": "str",
+			"classes": [
+				"barbarian",
+				"bard",
+				"fighter",
+				"ranger",
+				"rogue"
+			]
+		},
+		{
+			"name": "Tumble",
+			"abil": "dex",
+			"classes": [
+				"bard",
+				"rogue"
+			]
+		},
+		{
+			"name": "Use Magic Device",
+			"abil": "cha",
+			"classes": [
+				"bard",
+				"rogue"
+			]
+		},
+		{
+			"name": "Use Rope",
+			"abil": "dex",
+			"classes": [
+				"ranger",
+				"rogue"
+			]
+		}
+	],
+	"feats": [
+		{
+			"name": "Acrobatics",
+			"ftr": false,
+			"focus": false,
+			"pre": false,
+			"benefit": "+2 bonus on Jump and Tumble checks",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Agile",
+			"ftr": false,
+			"focus": false,
+			"pre": false,
+			"benefit": "+2 bonus on Balance and Escape Artist checks",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Alertness",
+			"ftr": false,
+			"focus": false,
+			"pre": false,
+			"benefit": "+2 bonus on Listen and Spot checks",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Animal Affinity",
+			"ftr": false,
+			"focus": false,
+			"pre": false,
+			"benefit": "+2 bonus on Handle Animal and Ride checks",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Armor Proficiency (light)",
+			"ftr": false,
+			"focus": false,
+			"pre": false,
+			"benefit": "No armor check penalty on attack rolls",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Armor Proficiency (medium)",
+			"ftr": false,
+			"focus": false,
+			"pre": "Armor Proficiency (light)",
+			"benefit": "No armor check penalty on attack rolls",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Athletic",
+			"ftr": false,
+			"focus": false,
+			"pre": false,
+			"benefit": "+2 bonus on Climb and Jump checks",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Augment Summoning",
+			"ftr": false,
+			"focus": false,
+			"pre": "Spell Focus (conjuration)",
+			"benefit": "Summoned creatures gain +4 Str, +4 Con",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Blind Fight",
+			"ftr": true,
+			"focus": false,
+			"pre": false,
+			"benefit": "Reroll miss chance for concealment",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Cleave",
+			"ftr": true,
+			"focus": false,
+			"pre": "Str 13, Power Attack",
+			"benefit": "Extra melee attack after dropping target",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Combat Casting",
+			"ftr": false,
+			"focus": false,
+			"pre": false,
+			"benefit": "+4 bonus on Concentration checks for defensive casting",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Combat Expertise",
+			"ftr": true,
+			"focus": false,
+			"pre": "Int 13",
+			"benefit": "Trade attack bonus for AC (max 5 points)",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Combat Reflexes",
+			"ftr": true,
+			"focus": false,
+			"pre": false,
+			"benefit": "Additional attacks of opportunity",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Deflect Arrows",
+			"ftr": true,
+			"focus": false,
+			"pre": "Dex 13, Improved Unarmed Strike",
+			"benefit": "Deflect one ranged attack per round",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Deceitful",
+			"ftr": false,
+			"focus": false,
+			"pre": false,
+			"benefit": "+2 bonus on Disguise and Forgery checks",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Deft Hands",
+			"ftr": false,
+			"focus": false,
+			"pre": false,
+			"benefit": "+2 bonus on Sleight of Hand and Use Rope checks",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Diehard",
+			"ftr": false,
+			"focus": false,
+			"pre": "Endurance",
+			"benefit": "Remain conscious at -1 to -9 hp",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Diligent",
+			"ftr": false,
+			"focus": false,
+			"pre": false,
+			"benefit": "+2 bounus on Appraise and Decipher Script checks",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Dodge",
+			"ftr": true,
+			"focus": false,
+			"pre": "Dex 13",
+			"benefit": "+1 dodge bonus to AC against selected target",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Endurance",
+			"ftr": false,
+			"focus": false,
+			"pre": false,
+			"benefit": "+4 bonus on checks or saves to resist nonlethal damage",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Eschew Materials",
+			"ftr": false,
+			"focus": false,
+			"pre": false,
+			"benefit": "Cast spells without material components",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Exotic Weapon Proficiency (1st weapon)",
+			"ftr": true,
+			"focus": true,
+			"pre": "Base attack bonus +1",
+			"benefit": "No penalty on attacks with specific exotic weapon",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Exotic Weapon Proficiency (2nd weapon)",
+			"ftr": true,
+			"focus": true,
+			"pre": "Base attack bonus +1, Exotic Weapon Proficiency (1st weapon)",
+			"benefit": "No penalty on attacks with specific exotic weapon",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Far Shot",
+			"ftr": true,
+			"focus": false,
+			"pre": "Point Blank Shot",
+			"benefit": "Increase range increment by 50% or 100%",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Great Fortitude",
+			"ftr": false,
+			"focus": false,
+			"pre": false,
+			"benefit": "+2 bonus on Fortitude saves",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Improved Bull Rush",
+			"ftr": true,
+			"focus": false,
+			"pre": "Str 13, Power Attack",
+			"benefit": "+4 bonus on bull rush attemps; no attack of opportunity",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Improved Counterspell",
+			"ftr": false,
+			"focus": false,
+			"pre": false,
+			"benefit": "Counterspell with spell of same school",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Improved Disarm",
+			"ftr": true,
+			"focus": false,
+			"pre": "Int 13, Combat Expertise",
+			"benefit": "+4 bonus on disarm attemps; no attack of opportunity",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Improved Feint",
+			"ftr": true,
+			"focus": false,
+			"pre": "Int 13, Combat Expertise",
+			"benefit": "Feint in combat as move action",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Improved Grapple",
+			"ftr": true,
+			"focus": false,
+			"pre": "Dex 13, Improved Unarmed Strike",
+			"benefit": "+4 bonus on grapple checks; no attack of opportunity",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Improved Initiative",
+			"ftr": true,
+			"focus": false,
+			"pre": false,
+			"benefit": "+4 bonus on initiative checks",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Improved Overrun",
+			"ftr": true,
+			"focus": false,
+			"pre": "Str 13, Power Attack",
+			"benefit": "+4 bonus on overrun attemps; no attack of opportunity",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Improved Shield Bash",
+			"ftr": true,
+			"focus": false,
+			"pre": "Shield Proficiency",
+			"benefit": "Retain shield bonus to AC when shield bashing",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Improved Sunder",
+			"ftr": true,
+			"focus": false,
+			"pre": "Str 13, Power Attack",
+			"benefit": "+4 bonus on sunder attemps; no attack of opportunity",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Improved Trip",
+			"ftr": true,
+			"focus": false,
+			"pre": "Int 13, Combat Expertise",
+			"benefit": "+4 bonus on trip attemps; no attack of opportunity",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Improved Unarmed Strike",
+			"ftr": true,
+			"focus": false,
+			"pre": false,
+			"benefit": "Considered armed even when unarmed",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Investigator",
+			"ftr": false,
+			"focus": false,
+			"pre": false,
+			"benefit": "+2 bonus on Gather Information and Search checks",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Iron Will",
+			"ftr": false,
+			"focus": false,
+			"pre": false,
+			"benefit": "+2 bonus on Will saves",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Lightning Reflexes",
+			"ftr": false,
+			"focus": false,
+			"pre": false,
+			"benefit": "+2 bonus on Reflex saves",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Magical Aptitude",
+			"ftr": false,
+			"focus": false,
+			"pre": false,
+			"benefit": "+2 bonus on Spellcraft and Use Magic Device checks",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Martial Weapon Proficiency (1st weapon)",
+			"ftr": false,
+			"focus": true,
+			"pre": false,
+			"benefit": "No penalty on attacks with specific martial weapon",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Martial Weapon Proficiency (2nd weapon)",
+			"ftr": false,
+			"focus": true,
+			"pre": "Martial Weapon Proficiency (1st weapon)",
+			"benefit": "No penalty on attacks with specific martial weapon",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Mobility",
+			"ftr": true,
+			"focus": false,
+			"pre": "Dex 13, Dodge",
+			"benefit": "+4 dodge bonus to AC aginst some attacks of opportunity",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Mounted Combat",
+			"ftr": true,
+			"focus": false,
+			"pre": "Ride 1 rank",
+			"benefit": "Negate hits on mount with Ride check",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Mounted Archery",
+			"ftr": true,
+			"focus": false,
+			"pre": "Ride 1 rank, Mounted Combat",
+			"benefit": "Half penalty for ranged attacks while mounted",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Negotiator",
+			"ftr": false,
+			"focus": false,
+			"pre": false,
+			"benefit": "+2 bonus on Diplomacy and Sense Motive checks",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Nimble Fingers",
+			"ftr": false,
+			"focus": false,
+			"pre": false,
+			"benefit": "+2 bonus on Disable Device and Open Lock checks",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Persuasive",
+			"ftr": false,
+			"focus": false,
+			"pre": false,
+			"benefit": "+2 bonus on Bluff and Intimidate checks",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Point Blank Shot",
+			"ftr": true,
+			"focus": false,
+			"pre": false,
+			"benefit": "+1 bonus on ranged attacks and damage within 30 ft.",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Power Attack",
+			"ftr": true,
+			"focus": false,
+			"pre": "Str 13",
+			"benefit": "Trade attack bonus for damage (up to base attack bonus)",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Precise Shot",
+			"ftr": true,
+			"focus": false,
+			"pre": "Point Blank Shot",
+			"benefit": "No -4 penalty for shooting into melee",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Quick Draw",
+			"ftr": true,
+			"focus": false,
+			"pre": "Base attack bonus +1",
+			"benefit": "Draw weapon as a free action",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Rapid Shot",
+			"ftr": true,
+			"focus": false,
+			"pre": "Dex 13, Point Blank Shot",
+			"benefit": "One extra ranged attack each round",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Ride-By Attack",
+			"ftr": true,
+			"focus": false,
+			"pre": "Ride 1 rank, Mounted Combat",
+			"benefit": "Move before and after a mounted charge",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Run",
+			"ftr": false,
+			"focus": false,
+			"pre": false,
+			"benefit": "Run at 5 times normal speed, +4 bonus on Jump checks made after running start",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Scribe Scroll",
+			"ftr": false,
+			"focus": false,
+			"pre": "Caster level 1st",
+			"benefit": "Create magic scrolls",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Self-Sufficient",
+			"ftr": false,
+			"focus": false,
+			"pre": false,
+			"benefit": "+2 bonus on Heal and Survival checks",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Shield Proficiency",
+			"ftr": false,
+			"focus": false,
+			"pre": false,
+			"benefit": "No armor check penalty on attack rolls",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Simple Weapon Proficiency",
+			"ftr": false,
+			"focus": false,
+			"pre": false,
+			"benefit": "No -4 penalty on attack rolls with simple weapons",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Skill Focus (1st skill)",
+			"ftr": false,
+			"focus": true,
+			"pre": false,
+			"benefit": "+3 bonus with selected skill",
+			"multiple": true,
+			"stack": false
+		},
+		{
+			"name": "Skill Focus (2nd skill)",
+			"ftr": false,
+			"focus": true,
+			"pre": "Skill Focus (1st skill)",
+			"benefit": "+3 bonus with selected skill",
+			"multiple": true,
+			"stack": false
+		},
+		{
+			"name": "Spell Focus (abjuration)",
+			"ftr": false,
+			"focus": true,
+			"pre": false,
+			"benefit": "+1 bonus on save DCs against specific school of magic",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Spell Focus (conjuration)",
+			"ftr": false,
+			"focus": true,
+			"pre": false,
+			"benefit": "+1 bonus on save DCs against specific school of magic",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Spell Focus (divination)",
+			"ftr": false,
+			"focus": true,
+			"pre": false,
+			"benefit": "+1 bonus on save DCs against specific school of magic",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Spell Focus (enchantment)",
+			"ftr": false,
+			"focus": true,
+			"pre": false,
+			"benefit": "+1 bonus on save DCs against specific school of magic",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Spell Focus (evocation)",
+			"ftr": false,
+			"focus": true,
+			"pre": false,
+			"benefit": "+1 bonus on save DCs against specific school of magic",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Spell Focus (illusion)",
+			"ftr": false,
+			"focus": true,
+			"pre": false,
+			"benefit": "+1 bonus on save DCs against specific school of magic",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Spell Focus (necromancy)",
+			"ftr": false,
+			"focus": true,
+			"pre": false,
+			"benefit": "+1 bonus on save DCs against specific school of magic",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Spell Focus (transmutation)",
+			"ftr": false,
+			"focus": true,
+			"pre": false,
+			"benefit": "+1 bonus on save DCs against specific school of magic",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Spell Penetration",
+			"ftr": false,
+			"focus": false,
+			"pre": false,
+			"benefit": "+2 bonus on caster level checks to defeat spell resistance",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Stealthy",
+			"ftr": false,
+			"focus": false,
+			"pre": false,
+			"benefit": "+2 bonus on Hide and Move Silently checks",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Tower Shield Proficiency",
+			"ftr": false,
+			"focus": false,
+			"pre": false,
+			"benefit": "No armor check penalty on attack rolls",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Track",
+			"ftr": false,
+			"focus": false,
+			"pre": false,
+			"benefit": "Use Survival skill to track",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Trample",
+			"ftr": true,
+			"focus": false,
+			"pre": "Ride 1 rank, Mounted Combat",
+			"benefit": "Target cannot avoid mounted overrun",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Toughness",
+			"ftr": false,
+			"focus": false,
+			"pre": false,
+			"benefit": "+3 hit points",
+			"multiple": true,
+			"stack": true
+		},
+		{
+			"name": "Two-Weapon Defense",
+			"ftr": true,
+			"focus": false,
+			"pre": "Dex 15, Two-Weapon Fighting",
+			"benefit": "Off-hand weapon grants +1 shield bonus to AC",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Two-Weapon Fighting",
+			"ftr": true,
+			"focus": false,
+			"pre": "Dex 15",
+			"benefit": "Reduce two-weapon fighting penalties",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Weapon Finesse",
+			"ftr": true,
+			"focus": false,
+			"pre": "Base attack bonus +1",
+			"benefit": "Use Dex modifier instead of Str modifier on attack rolls with light melee weapons",
+			"multiple": false,
+			"stack": false
+		},
+		{
+			"name": "Weapon Focus (1st weapon)",
+			"ftr": true,
+			"focus": false,
+			"pre": "Base attack bonus +1",
+			"benefit": "+1 bonus on attack rolls with selected weapon",
+			"multiple": true,
+			"stack": false
+		},
+		{
+			"name": "Weapon Focus (2nd weapon)",
+			"ftr": true,
+			"focus": false,
+			"pre": "Base attack bonus +1, Weapon Focus (1st weapon)",
+			"benefit": "+1 bonus on attack rolls with selected weapon",
+			"multiple": true,
+			"stack": false
+		}
+	],
+	"deities": [
+		{
+			"name": "Boccob",
+			"title": "God of magic",
+			"alignment": "N",
+			"domains": [
+				"Knowledge",
+				"Magic",
+				"Trickery"
+			],
+			"weapon": "quarterstaff"
+		},
+		{
+			"name": "Corellon Larethian",
+			"title": "God of the elves",
+			"alignment": "CG",
+			"domains": [
+				"Chaos",
+				"Good",
+				"Protection"
+			],
+			"weapon": "longsword"
+		},
+		{
+			"name": "Ehlonna",
+			"title": "Goddess of the woodlands",
+			"alignment": "NG",
+			"domains": [
+				"Animal",
+				"Good",
+				"Plant",
+				"Sun"
+			],
+			"weapon": "longbow"
+		},
+		{
+			"name": "Erythnul",
+			"title": "God of slaughter",
+			"alignment": "CE",
+			"domains": [
+				"Chaos",
+				"Evil",
+				"Trickery",
+				"War"
+			],
+			"weapon": "morningstar"
+		},
+		{
+			"name": "Fharlanghn",
+			"title": "God of the roads",
+			"alignment": "N",
+			"domains": [
+				"Luck",
+				"Protection",
+				"Travel"
+			],
+			"weapon": "quarterstaff"
+		},
+		{
+			"name": "Garl Glittergold",
+			"title": "God of the gnomes",
+			"alignment": "NG",
+			"domains": [
+				"Good",
+				"Protection",
+				"Trickery"
+			],
+			"weapon": "battleaxe"
+		},
+		{
+			"name": "Gruumsh",
+			"title": "God of the orcs",
+			"alignment": "CE",
+			"domains": [
+				"Chaos",
+				"Evil",
+				"Strength",
+				"War"
+			],
+			"weapon": "spear"
+		},
+		{
+			"name": "Heironeous",
+			"title": "God of valor",
+			"alignment": "LG",
+			"domains": [
+				"Good",
+				"Law",
+				"War"
+			],
+			"weapon": "longsword"
+		},
+		{
+			"name": "Hextor",
+			"title": "God of tyranny",
+			"alignment": "LE",
+			"domains": [
+				"Destruction",
+				"Evil",
+				"Law",
+				"War"
+			],
+			"weapon": "flail"
+		},
+		{
+			"name": "Kord",
+			"title": "God of strength",
+			"alignment": "CG",
+			"domains": [
+				"Chaos",
+				"Good",
+				"Luck",
+				"Strength"
+			],
+			"weapon": "greatsword"
+		},
+		{
+			"name": "Moradin",
+			"title": "God of the dwarves",
+			"alignment": "LG",
+			"domains": [
+				"Earth",
+				"Good",
+				"Law",
+				"Protection"
+			],
+			"weapon": "warhammer"
+		},
+		{
+			"name": "Nerull",
+			"title": "God of death",
+			"alignment": "NE",
+			"domains": [
+				"Death",
+				"Evil",
+				"Trickery"
+			],
+			"weapon": "scythe"
+		},
+		{
+			"name": "Obad-Hai",
+			"title": "God of nature",
+			"alignment": "N",
+			"domains": [
+				"Air",
+				"Animal",
+				"Earth",
+				"Fire",
+				"Plant",
+				"Water"
+			],
+			"weapon": "quarterstaff"
+		},
+		{
+			"name": "Olidammara",
+			"title": "God of rogues",
+			"alignment": "CN",
+			"domains": [
+				"Chaos",
+				"Luck",
+				"Trickery"
+			],
+			"weapon": "rapier"
+		},
+		{
+			"name": "Pelor",
+			"title": "God of the sun",
+			"alignment": "NG",
+			"domains": [
+				"Good",
+				"Healing",
+				"Strength",
+				"Sun"
+			],
+			"weapon": "mace"
+		},
+		{
+			"name": "St. Cuthbert",
+			"title": "God of retribution",
+			"alignment": "LN",
+			"domains": [
+				"Destruction",
+				"Law",
+				"Protection",
+				"Strength"
+			],
+			"weapon": "mace"
+		},
+		{
+			"name": "Vecna",
+			"title": "God of secrets",
+			"alignment": "NE",
+			"domains": [
+				"Evil",
+				"Knowledge",
+				"Magic"
+			],
+			"weapon": "dagger"
+		},
+		{
+			"name": "Wee Jas",
+			"title": "Goddess of death and magic",
+			"alignment": "LN",
+			"domains": [
+				"Death",
+				"Law",
+				"Magic"
+			],
+			"weapon": "dagger"
+		},
+		{
+			"name": "Yondalla",
+			"title": "Goddess of the halflings",
+			"alignment": "LG",
+			"domains": [
+				"Good",
+				"Law",
+				"Protection"
+			],
+			"weapon": "short sword"
+		}
+	],
+	"favoredEnemies": [
+		{
+			"type": "Aberration",
+			"example": "beholder"
+		},
+		{
+			"type": "Animal",
+			"example": "bear"
+		},
+		{
+			"type": "Construct",
+			"example": "golem"
+		},
+		{
+			"type": "Dragon",
+			"example": "black dragon"
+		},
+		{
+			"type": "Elemental",
+			"example": "invisible stalker"
+		},
+		{
+			"type": "Fey",
+			"example": "dryad"
+		},
+		{
+			"type": "Giant",
+			"example": "ogre"
+		},
+		{
+			"type": "Humanoid (aquatic)",
+			"example": "merfolk"
+		},
+		{
+			"type": "Humanoid (dwarf)",
+			"example": "dwarf"
+		},
+		{
+			"type": "Humanoid (elf)",
+			"example": "elf"
+		},
+		{
+			"type": "Humanoid (goblinoid)",
+			"example": "hobgoblin"
+		},
+		{
+			"type": "Humanoid (gnoll)",
+			"example": "gnoll"
+		},
+		{
+			"type": "Humanoid (gnome)",
+			"example": "gnome"
+		},
+		{
+			"type": "Humanoid (halfling)",
+			"example": "halfling"
+		},
+		{
+			"type": "Humanoid (human)",
+			"example": "human"
+		},
+		{
+			"type": "Humanoid (orc)",
+			"example": "orc"
+		},
+		{
+			"type": "Humanoid (reptilian)",
+			"example": "kobold"
+		},
+		{
+			"type": "Magical beast",
+			"example": "displacer beast"
+		},
+		{
+			"type": "Monstrous humanoid",
+			"example": "minotaur"
+		},
+		{
+			"type": "Ooze",
+			"example": "gelatinous cube"
+		},
+		{
+			"type": "Outsider (air)",
+			"example": "arrowhawk"
+		},
+		{
+			"type": "Outsider (chaotic)",
+			"example": "demon"
+		},
+		{
+			"type": "Outsider (earth)",
+			"example": "xorn"
+		},
+		{
+			"type": "Outsider (evil)",
+			"example": "devil"
+		},
+		{
+			"type": "Outsider (fire)",
+			"example": "salamander"
+		},
+		{
+			"type": "Outsider (good)",
+			"example": "angel"
+		},
+		{
+			"type": "Outsider (lawful)",
+			"example": "formian"
+		},
+		{
+			"type": "Outsider (native)",
+			"example": "tiefling"
+		},
+		{
+			"type": "Outsider (water)",
+			"example": "tojanida"
+		},
+		{
+			"type": "Plant",
+			"example": "shambling  mound"
+		},
+		{
+			"type": "Undead",
+			"example": "zombie"
+		},
+		{
+			"type": "Vermin",
+			"example": "monstrous spider"
+		}
+	],
+	"bardSpells": {
+		"0": [
+			{
+				"name": "Dancing Lights",
+				"description": "Creates torches or other lights."
+			},
+			{
+				"name": "Daze",
+				"description": "Humaniod creature of 4 HD or less loses next action."
+			},
+			{
+				"name": "Detect Magic",
+				"description": "Detects spells and magic items within 60 ft."
+			},
+			{
+				"name": "Flare",
+				"description": "Dazzles one creature (-1 on attack rolls)."
+			},
+			{
+				"name": "Ghost Sound",
+				"description": "Figment sounds."
+			},
+			{
+				"name": "Know Direction",
+				"description": "You discern north."
+			},
+			{
+				"name": "Light",
+				"description": "Object shines like a torch."
+			},
+			{
+				"name": "Lullaby",
+				"description": "Makes subject drowsy; -5 on Spot and Listen checks, -2 on Will saves against sleep."
+			},
+			{
+				"name": "Mage Hand",
+				"description": "5-pound telekinesis."
+			},
+			{
+				"name": "Mending",
+				"description": "Makes minor repairs on an object."
+			},
+			{
+				"name": "Message",
+				"description": "Whispered conversations at a distance."
+			},
+			{
+				"name": "Open/Close",
+				"description": "Opens or closes small or light things."
+			},
+			{
+				"name": "Prestidigitation",
+				"description": "Performs minor tricks."
+			},
+			{
+				"name": "Read Magic",
+				"description": "Read scrolls and spellbooks."
+			},
+			{
+				"name": "Resistance",
+				"description": "Subject gains +1 on saving throws."
+			},
+			{
+				"name": "Summon Instrument",
+				"description": "Summons one instrument of the caster's choice."
+			}
+		]
+	},
+	"sorcererSpells": {
+		"0": [
+			{
+				"name": "Acid Splash",
+				"description": "Orb deals 1d3 acid damage."
+			},
+			{
+				"name": "Arcane Mark",
+				"description": "Inscribes a personal rune (visible or invisible)."
+			},
+			{
+				"name": "Dancing Lights",
+				"description": "Creates torches or other lights."
+			},
+			{
+				"name": "Daze",
+				"description": "Humaniod creature of 4 HD or less loses next action."
+			},
+			{
+				"name": "Detect Magic",
+				"description": "Detects spells and magic items within 60 ft."
+			},
+			{
+				"name": "Detect Poison",
+				"description": "Detects poison on one creature or small object."
+			},
+			{
+				"name": "Disrupt Undead",
+				"description": "Deals 1d6 damage to one undead."
+			},
+			{
+				"name": "Flare",
+				"description": "Dazzles one creature (-1 on attack rolls)."
+			},
+			{
+				"name": "Ghost Sound",
+				"description": "Figment sounds."
+			},
+			{
+				"name": "Know Direction",
+				"description": "You discern north."
+			},
+			{
+				"name": "Light",
+				"description": "Object shines like a torch."
+			},
+			{
+				"name": "Mage Hand",
+				"description": "5-pound telekinesis."
+			},
+			{
+				"name": "Mending",
+				"description": "Makes minor repairs on an object."
+			},
+			{
+				"name": "Message",
+				"description": "Whispered conversations at a distance."
+			},
+			{
+				"name": "Open/Close",
+				"description": "Opens or closes small or light things."
+			},
+			{
+				"name": "Prestidigitation",
+				"description": "Performs minor tricks."
+			},
+			{
+				"name": "Ray of Frost",
+				"description": "Ray deals 1d3 cold damage."
+			},
+			{
+				"name": "Read Magic",
+				"description": "Read scrolls and spellbooks."
+			},
+			{
+				"name": "Resistance",
+				"description": "Subject gains +1 on saving throws."
+			},
+			{
+				"name": "Touch of Fatigue",
+				"description": "Touch attack fatigues target."
+			}
+		],
+		"1": [
+			{
+				"name": "Alarm",
+				"description": "Wards an area for 2 hours/level."
+			},
+			{
+				"name": "Animate Rope",
+				"description": "Makes a rope move at your command."
+			},
+			{
+				"name": "Burning Hands",
+				"description": "1d4/level fire damage (max 5d4)."
+			},
+			{
+				"name": "Cause Fear",
+				"description": "One creature of 5 HD or less flees for 1d4 rounds."
+			},
+			{
+				"name": "Charm Person",
+				"description": "Makes one person your friend."
+			},
+			{
+				"name": "Chill Touch",
+				"description": "One touch/level deals 1d6 damage and possibly 1 Str damage."
+			},
+			{
+				"name": "Color Spray",
+				"description": "Knocks unconscious, blinds, and/or stuns subjects."
+			},
+			{
+				"name": "Comprehend Languages",
+				"description": "You understand all spoken and written languages."
+			},
+			{
+				"name": "Detect Secret Doors",
+				"description": "Reveals hidden doors within 60 ft."
+			},
+			{
+				"name": "Detect Undead",
+				"description": "Reveals undead within 60 ft."
+			},
+			{
+				"name": "Disguise Self",
+				"description": "Changes your appearance."
+			},
+			{
+				"name": "Endure Elements",
+				"description": "Exist comfortably in hot or cold environments."
+			},
+			{
+				"name": "Enlarge Person",
+				"description": "Humanoid creature doubles in size."
+			},
+			{
+				"name": "Erase",
+				"description": "Mundane or magical writing vanishes."
+			},
+			{
+				"name": "Expeditious Retreat",
+				"description": "Your speed increases by 30 ft."
+			},
+			{
+				"name": "Feather Fall",
+				"description": "Objects or creatures fall slowly."
+			},
+			{
+				"name": "Grease",
+				"description": "Makes 10-ft. square or one object slippery."
+			},
+			{
+				"name": "Hold Portal",
+				"description": "Holds door shut."
+			},
+			{
+				"name": "Hypnotism",
+				"description": "Fascinates 2d4 HD of creatures."
+			},
+			{
+				"name": "Identify",
+				"description": "Determines properties of magic item."
+			},
+			{
+				"name": "Jump",
+				"description": "Subject gets bonus on Jump checks."
+			},
+			{
+				"name": "Mage Armor",
+				"description": "Gives subject +4 armor bonus."
+			},
+			{
+				"name": "Magic Missile",
+				"description": "1d4+1 damage; +1 missile per two levels above 1st (max 5)."
+			},
+			{
+				"name": "Magic Weapon",
+				"description": "Weapon gains +1 bonus."
+			},
+			{
+				"name": "Mount",
+				"description": "Summons riding horse for 2 hours/level."
+			},
+			{
+				"name": "Nystul's Magic Aura",
+				"description": "Alters object's magic aura."
+			},
+			{
+				"name": "Obscuring Mist",
+				"description": "Fog surrounds you."
+			},
+			{
+				"name": "Protection from Chaos",
+				"description": "+2 to AC and saves, counter mind control, hedge out elementals and outsiders."
+			},
+			{
+				"name": "Protection from Evil",
+				"description": "+2 to AC and saves, counter mind control, hedge out elementals and outsiders."
+			},
+			{
+				"name": "Protection from Good",
+				"description": "+2 to AC and saves, counter mind control, hedge out elementals and outsiders."
+			},
+			{
+				"name": "Protection from Law",
+				"description": "+2 to AC and saves, counter mind control, hedge out elementals and outsiders."
+			},
+			{
+				"name": "Ray of Enfeeblement",
+				"description": "Ray deals 1d6 +1 per two levels Str penalty."
+			},
+			{
+				"name": "Reduce Person",
+				"description": "Humanoid creature halves in size."
+			},
+			{
+				"name": "Shield",
+				"description": "Invisible disc gives +4 to AC, blocks magic missiles."
+			},
+			{
+				"name": "Shocking Grasp",
+				"description": "Touch delivers 1d6/level electricity damage (max 5d6)."
+			},
+			{
+				"name": "Silent Image",
+				"description": "Creates minor illusion of your design."
+			},
+			{
+				"name": "Sleep",
+				"description": "Puts 4 HD of creatures into magical slumber."
+			},
+			{
+				"name": "Summon Monster I",
+				"description": "Calls extraplanar creature to fight for you."
+			},
+			{
+				"name": "Tenser's Floating Disk",
+				"description": "Creates 3-ft.-diameter horizontal disk that holds 100 lb./level."
+			},
+			{
+				"name": "True Strike",
+				"description": "Calls extraplanar creature to fight for you."
+			},
+			{
+				"name": "Unseen Servant",
+				"description": "Invisible force obeys your commands."
+			},
+			{
+				"name": "Ventriloquism",
+				"description": "Throws voice for 1 min./level."
+			}
+		]
+	},
+	"weapons": [
+		{
+			"name": "Arrows (20)",
+			"cost": 1,
+			"wt": 3,
+			"dmg": "-",
+			"crit": "-",
+			"range": "-",
+			"type": "-"
+		},
+		{
+			"name": "Battleaxe",
+			"cost": 10,
+			"wt": 6,
+			"dmg": "1d6/1d8",
+			"crit": "x3",
+			"range": "-",
+			"type": "S"
+		},
+		{
+			"name": "Bolts, crossbow (10)",
+			"cost": 1,
+			"wt": 1,
+			"dmg": "-",
+			"crit": "-",
+			"range": "-",
+			"type": "-"
+		},
+		{
+			"name": "Bullets, sling (10)",
+			"cost": 0.1,
+			"wt": 5,
+			"dmg": "-",
+			"crit": "-",
+			"range": "-",
+			"type": "-"
+		},
+		{
+			"name": "Crossbow, heavy",
+			"cost": 50,
+			"wt": 8,
+			"dmg": "1d8/1d10",
+			"crit": "19-20/x2",
+			"range": "120 ft.",
+			"type": "P"
+		},
+		{
+			"name": "Crossbow, light",
+			"cost": 35,
+			"wt": 4,
+			"dmg": "1d6/1d8",
+			"crit": "19-20/x2",
+			"range": "80 ft.",
+			"type": "P"
+		},
+		{
+			"name": "Dagger",
+			"cost": 2,
+			"wt": 1,
+			"dmg": "1d3/1d4",
+			"crit": "19-20/x2",
+			"range": "10 ft.",
+			"type": "P/S"
+		},
+		{
+			"name": "Greataxe",
+			"cost": 20,
+			"wt": 12,
+			"dmg": "1d10/1d12",
+			"crit": "x3",
+			"range": "-",
+			"type": "S"
+		},
+		{
+			"name": "Greatsword",
+			"cost": 50,
+			"wt": 8,
+			"dmg": "1d10/2d6",
+			"crit": "19-20/x2",
+			"range": "-",
+			"type": "S"
+		},
+		{
+			"name": "Light Mace",
+			"cost": 5,
+			"wt": 4,
+			"dmg": "1d4/1d6",
+			"crit": "x2",
+			"range": "-",
+			"type": "B"
+		},
+		{
+			"name": "Longbow, composite",
+			"cost": 100,
+			"wt": 3,
+			"dmg": "1d6/1d8",
+			"crit": "x3",
+			"range": "110 ft.",
+			"type": "P"
+		},
+		{
+			"name": "Longsword",
+			"cost": 15,
+			"wt": 4,
+			"dmg": "1d6/1d8",
+			"crit": "19-20/x2",
+			"range": "-",
+			"type": "S"
+		},
+		{
+			"name": "Morningstar",
+			"cost": 8,
+			"wt": 6,
+			"dmg": "1d6/1d8",
+			"crit": "x2",
+			"range": "-",
+			"type": "B/P"
+		},
+		{
+			"name": "Quarterstaff",
+			"cost": 0,
+			"wt": 4,
+			"dmg": "1d4/1d6",
+			"crit": "x2",
+			"range": "-",
+			"type": "B"
+		},
+		{
+			"name": "Rapier",
+			"cost": 20,
+			"wt": 2,
+			"dmg": "1d4/1d6",
+			"crit": "18-20/x2",
+			"range": "-",
+			"type": "P"
+		},
+		{
+			"name": "Shortbow, composite",
+			"cost": 75,
+			"wt": 2,
+			"dmg": "1d4/1d6",
+			"crit": "x3",
+			"range": "70 ft.",
+			"type": "P"
+		},
+		{
+			"name": "Short Spear",
+			"cost": 1,
+			"wt": 3,
+			"dmg": "1d4/1d6",
+			"crit": "x2",
+			"range": "20 ft.",
+			"type": "P"
+		},
+		{
+			"name": "Short Sword",
+			"cost": 10,
+			"wt": 2,
+			"dmg": "1d4/1d6",
+			"crit": "19-20/x2",
+			"range": "-",
+			"type": "P"
+		},
+		{
+			"name": "Sling",
+			"cost": 0,
+			"wt": 0,
+			"dmg": "1d3/1d4",
+			"crit": "x2",
+			"range": "50 ft.",
+			"type": "B"
+		},
+		{
+			"name": "Spear",
+			"cost": 2,
+			"wt": 6,
+			"dmg": "1d6/1d8",
+			"crit": "x3",
+			"range": "20 ft.",
+			"type": "P"
+		},
+		{
+			"name": "Warhammer",
+			"cost": 12,
+			"wt": 5,
+			"dmg": "1d6/1d8",
+			"crit": "x3",
+			"range": "-",
+			"type": "B"
+		}
+	],
+	"armor": [
+		{
+			"name": "Padded",
+			"cost": 5,
+			"bonus": 1,
+			"wt": 10,
+			"max": 8,
+			"pen": 0,
+			"fail": 5,
+			"speed": "30 ft."
+		},
+		{
+			"name": "Leather",
+			"cost": 10,
+			"bonus": 2,
+			"wt": 15,
+			"max": 6,
+			"pen": 0,
+			"fail": 10,
+			"speed": "30 ft."
+		},
+		{
+			"name": "Studded Leather",
+			"cost": 25,
+			"bonus": 3,
+			"wt": 20,
+			"max": 5,
+			"pen": -1,
+			"fail": 15,
+			"speed": "30 ft."
+		},
+		{
+			"name": "Chain Shirt",
+			"cost": 100,
+			"bonus": 4,
+			"wt": 25,
+			"max": 4,
+			"pen": -2,
+			"fail": 20,
+			"speed": "30 ft."
+		},
+		{
+			"name": "Hide",
+			"cost": 15,
+			"bonus": 3,
+			"wt": 25,
+			"max": 4,
+			"pen": -3,
+			"fail": 20,
+			"speed": "20 ft."
+		},
+		{
+			"name": "Scale Mail",
+			"cost": 50,
+			"bonus": 4,
+			"wt": 30,
+			"max": 3,
+			"pen": -4,
+			"fail": 25,
+			"speed": "20 ft."
+		},
+		{
+			"name": "Chain Mail",
+			"cost": 150,
+			"bonus": 5,
+			"wt": 40,
+			"max": 2,
+			"pen": -5,
+			"fail": 30,
+			"speed": "20 ft."
+		},
+		{
+			"name": "Breastplate",
+			"cost": 200,
+			"bonus": 5,
+			"wt": 30,
+			"max": 3,
+			"pen": -4,
+			"fail": 25,
+			"speed": "20 ft."
+		},
+		{
+			"name": "Buckler",
+			"cost": 15,
+			"bonus": 1,
+			"wt": 5,
+			"pen": -1,
+			"fail": 5,
+			"speed": "-"
+		},
+		{
+			"name": "Shield, light wooden",
+			"cost": 3,
+			"bonus": 1,
+			"wt": 5,
+			"pen": -1,
+			"fail": 5,
+			"speed": "-"
+		},
+		{
+			"name": "Shield, light steel",
+			"cost": 9,
+			"bonus": 1,
+			"wt": 6,
+			"pen": -1,
+			"fail": 5,
+			"speed": "-"
+		},
+		{
+			"name": "Shield, heavy wooden",
+			"cost": 7,
+			"bonus": 2,
+			"wt": 5,
+			"pen": -2,
+			"fail": 15,
+			"speed": "-"
+		},
+		{
+			"name": "Shield, heavy steel",
+			"cost": 20,
+			"bonus": 2,
+			"wt": 6,
+			"pen": -2,
+			"fail": 15,
+			"speed": "-"
+		},
+		{
+			"name": "Shield, tower",
+			"cost": 30,
+			"bonus": 4,
+			"wt": 45,
+			"pen": -10,
+			"fail": 50,
+			"speed": "-"
+		}
+	],
+	"equipment": [
+		{
+			"name": "Acid (flask)",
+			"cost": 10,
+			"wt": 1
+		},
+		{
+			"name": "Alchemist's Fire (flask)",
+			"cost": 20,
+			"wt": 1
+		},
+		{
+			"name": "Backpack",
+			"cost": 2,
+			"wt": 2
+		},
+		{
+			"name": "Bedroll",
+			"cost": 0.1,
+			"wt": 5
+		},
+		{
+			"name": "Belt Pouch",
+			"cost": 1,
+			"wt": 0.5
+		},
+		{
+			"name": "Candle",
+			"cost": 0.01,
+			"wt": 0
+		},
+		{
+			"name": "Chalk (1 piece)",
+			"cost": 0.01,
+			"wt": 0
+		},
+		{
+			"name": "Flint \u0026 Steel",
+			"cost": 1,
+			"wt": 0
+		},
+		{
+			"name": "Grappling Hook",
+			"cost": 1,
+			"wt": 4
+		},
+		{
+			"name": "Healer's Kit",
+			"cost": 50,
+			"wt": 1
+		},
+		{
+			"name": "Holy Symbol, wooden",
+			"cost": 1,
+			"wt": 0
+		},
+		{
+			"name": "Holy Symbol, silver",
+			"cost": 25,
+			"wt": 1
+		},
+		{
+			"name": "Holy Water (flask)",
+			"cost": 25,
+			"wt": 1
+		},
+		{
+			"name": "Ink (1 oz. vial)",
+			"cost": 8,
+			"wt": 0
+		},
+		{
+			"name": "Inkpen/Quill",
+			"cost": 0.1,
+			"wt": 0
+		},
+		{
+			"name": "Lantern, bullseye",
+			"cost": 12,
+			"wt": 3
+		},
+		{
+			"name": "Lantern, hooded",
+			"cost": 7,
+			"wt": 2
+		},
+		{
+			"name": "Map/Scroll Case",
+			"cost": 1,
+			"wt": 0.5
+		},
+		{
+			"name": "Oil (1-pint-flask)",
+			"cost": 0.1,
+			"wt": 1
+		},
+		{
+			"name": "Parchment (sheet)",
+			"cost": 0.2,
+			"wt": 0
+		},
+		{
+			"name": "Rope, hempen (50 ft.)",
+			"cost": 1,
+			"wt": 10
+		},
+		{
+			"name": "Rope, silk (50 ft.)",
+			"cost": 10,
+			"wt": 5
+		},
+		{
+			"name": "Sack (empty)",
+			"cost": 0.1,
+			"wt": 0.5
+		},
+		{
+			"name": "Spell Component Pouch",
+			"cost": 5,
+			"wt": 2
+		},
+		{
+			"name": "Sunrod",
+			"cost": 2,
+			"wt": 1
+		},
+		{
+			"name": "Tent",
+			"cost": 10,
+			"wt": 20
+		},
+		{
+			"name": "Thieves' Tools",
+			"cost": 30,
+			"wt": 1
+		},
+		{
+			"name": "Torch",
+			"cost": 0.01,
+			"wt": 1
+		},
+		{
+			"name": "Trail Rations (per day)",
+			"cost": 0.5,
+			"wt": 1
+		},
+		{
+			"name": "Waterskin",
+			"cost": 1,
+			"wt": 4
+		},
+		{
+			"name": "Whetstone",
+			"cost": 0.02,
+			"wt": 1
+		}
+	],
+	"appInfo": {
+		"home": [
+			"Welcome to the SilentForge character builder!",
+			"This website is designed for you to create 3.5 D\u0026D characters.",
+			"To get started, go to the First page and begin the process.",
+			"At any time, you can change your character by visiting one of the pages and altering it's information.",
+			"You can always use the info icon at the bottom right if you get stuck.",
+			"Also, you can go to the Preview page at any point to view your progress.",
+			"Good luck and have fun!"
+		],
+		"first": [
+			"This is the First Steps page.",
+			"Your character's path begins here.",
+			"You can either select an existing character and alter it, or...",
+			"You can begin a new character by filling out the form starting with Character Name.",
+			"You have to complete one of these steps in order to build a character.",
+			"Once you are finished, click LET'S GO.",
+			"Answer the dialog that pops up and continue on."
+		],
+		"class": [
+			"This is the Class page.",
+			"You can select a class for your character by clicking on one of the large buttons.",
+			"To see what a class is about, click on one of the buttons.",
+			"If you don't like the class, click Cancel and pick another one.",
+			"If you like the class, click ok and continue on."
+		],
+		"race": [
+			"This is the Race page.",
+			"You can select a race for your character by clicking on one of the large buttons.",
+			"To see what a race is about, click on one of the buttons.",
+			"If you don't like the race, click Cancel and pick another one.",
+			"If you like the race, click ok and continue on."
+		],
+		"abilities": [
+			"This is the Abilities Page.",
+			"First, select a campaign type to determine how many ability points you get to spend.",
+			"Next, select your character's ability scores by adjusting the numbers next to each score.",
+			"Your points remaining will be kept track for you beneath the Ability Scores form.",
+			"If you spend too many points, the indicator will turn red.",
+			"You cannot save your scores if the points are in the red.",
+			"Note also, that any ability bonuses from your character's race will be shown here.",
+			"When you are satisfied with your selections, click Save Scores.",
+			"Confirm your scores and move on."
+		],
+		"features": [
+			"This is the Features Page.",
+			"Assign all of your character's features here.",
+			"Some features, such as age and height, will be randomly calculated for you.",
+			"Feel free to change anything on this form.",
+			"If you chose a bard, ranger, or sorcerer, you will have a More... button at the bottom of the form.",
+			"Click this button to set additional class-based features for your character.",
+			"Rangers must specify a favored enemy.",
+			"Bards and sorcerers must select spells known.",
+			"When you are satisfied with your character's features, click Save Details and confirm to move on."
+		],
+		"skills": [
+			"This is the Skills Page.",
+			"Your character will have a number of skill points calculated from its class, race, and Intelligence.",
+			"Class skills will have a check mark next to them and are yellow.",
+			"Class skills cost 1 skill point per rank.",
+			"Non class skills (cross-class skills) cost 2 skill points per rank.",
+			"No skill can have more than 4 ranks.",
+			"If you spend too many skill points, the Points Remaining indicator will turn red.",
+			"You cannot save your character's skills if your Points Remaining is in the red.",
+			"Once you have spent all the skill points you wish, click Save Skills.",
+			"Confirm the dialog that pops up to move on."
+		],
+		"feats": [
+			"This is the Feats Page.",
+			"Select the feat(s) you want your character to have in the boxes provided.",
+			"If you have not met the prerequisites for a feat, there will be a red X next to it.",
+			"If you have met the requirements, there will be a green check mark next to it.",
+			"You cannot save your character's feats until all feats are in the green.",
+			"To view all the feats and their prerequisites, click View Feat Details.",
+			"If you start typing in the feat text boxes, it will start filtering for your selection.",
+			"Once you are satisfied with your feat selections, click Save Feats to move on."
+		],
+		"equipment": [
+			"This is the Equipment page.",
+			"Your character starts with an inital amount of gold based on its class.",
+			"Click one of the categories (Weapons, Armor, or Gear) to buy your character's equipment.",
+			"As you select equipment, your gold will be adjusted to show how much you have remaining.",
+			"If you spend too much gold, the Gold to spend indicator will turn red.",
+			"You cannot save your equipment if your gold is in the red.",
+			"Once you are satisfied with your purchases, click BUY.",
+			"Once you confirm your selections, you can move on."
+		],
+		"preview": [
+			"This is the Preview Page.",
+			"You can view your character's current state here.",
+			"If you don't like something, you can go to any of the previous pages and change it.",
+			"You can also print this page to see your character on paper."
+		],
+		"about": [
+			"This is the About Page.",
+			"Meet Buzz and learn about why he created this website..."
+		]
+	}
+}

@@ -1,0 +1,56 @@
+:root {
+  --grad: linear-gradient(#7777774f, #7777774f);
+}
+
+div.pagewrap {
+  position: 'relative';
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.feats {
+  background-image: var(--grad), url("../../images/feats.jpg");
+}
+
+.first {
+  background-image: var(--grad), url("../../images/first.jpg");
+}
+
+.home {
+  background-image: var(--grad), url("../../images/home.jpg");
+}
+
+.abilities {
+  background-image: var(--grad), url("../../images/abilities.jpg");
+}
+
+.skills {
+  background-image: var(--grad), url("../../images/skills.jpg");
+}
+
+.race {
+  background-image: var(--grad), url("../../images/race.jpg");
+}
+
+.class {
+  background-image: var(--grad), url("../../images/class.jpg");
+}
+
+.features {
+  background-image: var(--grad), url("../../images/features.jpg");
+}
+
+.equipment {
+  background-image: var(--grad), url("../../images/equipment.jpg");
+}
+
+.preview {
+  background-image: var(--grad), url("../../images/preview.jpg");
+}
+
+.about {
+  background-image: var(--grad), url("../../images/about.jpg");
+}

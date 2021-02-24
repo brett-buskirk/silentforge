@@ -1,0 +1,42 @@
+#about-container {
+  position: absolute;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+  width: 270px;
+}
+
+#about-img {
+  position: relative;
+  background-image: url("../../images/buzz.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 235px;
+  width: 200px;
+  border-radius: 5px;
+  border: 3px groove bisque;
+  margin: 0 auto;
+}
+
+#about-block {
+  font-family: sans-serif;
+  letter-spacing: 1.2px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 5px black;
+}
+
+#about-block h3 {
+  color: gold;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+#about-block p {
+  font-style: oblique;
+}
+
+#about-block p span {
+  color: bisque;
+  font-weight: bold;
+}

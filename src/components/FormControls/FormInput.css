@@ -1,0 +1,35 @@
+.TextArea {
+  border-radius: 5px;
+  padding: 3px;
+  font-size: 16px;
+  resize: none;
+  border: 2px inset;
+}
+
+.Text, .Number {
+  font-size: 16px;
+  padding: 3px;
+  border-radius: 5px;
+  border-color: silver;
+  background-color: whitesmoke;
+}
+
+.Select {
+  display: inline-block;
+}
+
+.Select select {
+  font-size: 16px;
+  height: 28px;
+  border-radius: 5px;
+  border: 2px inset silver;
+  background-color: whitesmoke;
+}
+
+::placeholder {
+  color: #daa520b4;
+}
+
+input:focus, select:focus {
+  outline-color: gold;
+}

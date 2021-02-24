@@ -1,0 +1,44 @@
+div.loadingMain {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 500;
+  display: inline-block;
+  margin: 20px;
+  background-color: #333;
+  border-radius: 12px;
+  border: 3px groove bisque;
+  box-shadow: 5px 5px 15px black;
+  width: 400px;
+}
+
+div.loadingBody {
+  margin-left: 75px;
+  height: 75px;
+}
+
+div.loadingIcon {
+  float: left;
+  height: 75px;
+  width: 75px;
+  background-image: url("../../images/loading.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 10px 0 0 10px;
+  border-right: 2px solid bisque;
+}
+
+div.loadingMain h2 {
+  color: gold;
+  text-align: center;
+  padding-top: 12px;
+}
+
+div.loadingGif {
+  height: 13px;
+  width: 208px;
+  background-image: url("../../images/loading.gif");
+  margin: 0 auto;
+  margin-top: 10px;
+}

@@ -1,0 +1,141 @@
+div.race-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 220px;
+}
+
+div.raceButton {
+  position: relative;
+  height: 75px;
+  width: 200px;
+  margin: 10px 0px;
+  padding: 10px;
+  border-radius: 12px;
+  border: 3px groove bisque;
+  box-shadow: 5px 5px 15px black;
+  transition: transform .3s;
+}
+
+div.raceButton:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+div.raceButton h2 {
+  position: absolute;
+  bottom: 5px;
+  font-family: fantasy;
+  color: gold;
+  letter-spacing: 1.3px;
+  text-shadow: 3px 3px 10px black;
+}
+
+
+/* ==============================================================================================
+    SMALL BUTTON
+============================================================================================== */
+
+div.smallButton {
+  background-color: #555;
+  width: 220px;
+  padding: 0;
+}
+
+div.thumbnail {
+  height: 100%;
+  width: 75px;
+  border-radius: 9px 0px 0px 9px;
+  border-right: thin solid bisque;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+div.smallButton h2 {
+  left: 82px;
+  margin-bottom: 6px;
+}
+
+
+/* ==============================================================================================
+    LARGE BUTTON
+============================================================================================== */
+
+div.largeButton {
+  display: none;
+}
+
+
+/* ==============================================================================================
+    BUTTON IMAGES
+============================================================================================== */
+
+.elf {
+  background-image: url('../../images/elf.png')
+}
+
+.dwarf {
+  background-image: url('../../images/dwarf.png')
+}
+
+.gnome {
+  background-image: url('../../images/gnome.jpg')
+}
+
+.human {
+  background-image: url('../../images/human.png')
+}
+
+.half-orc {
+  background-image: url('../../images/half-orc.png')
+}
+
+.halfling {
+  background-image: url('../../images/halfling.png')
+}
+
+
+/* ==============================================================================================
+    MEDIA QUERIES
+============================================================================================== */
+
+@media only screen and (min-width: 720px) {
+  div.race-container {
+    width: 480px;
+  }
+
+  div.raceButton {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+  }
+
+  div.smallButton {
+    display: none;
+  }
+
+  div.largeButton {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 970px) {
+  div.race-container {
+    width: 720px;
+  }
+}
+
+@media screen and (min-width: 1220px) {
+  div.race-container {
+    width: 960px;
+  }
+}
+
+@media screen and (max-height: 775px) {
+  div.raceButton {
+    height: 67px;
+    margin: 5px 0px;
+  }
+}

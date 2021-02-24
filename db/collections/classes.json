@@ -1,0 +1,442 @@
+{
+	"_id": {
+		"$oid": "5e4c00b9e37231c9b7d30e3e"
+	},
+	"name": "barbarian",
+	"bab": "good",
+	"saves": {
+		"fort": "good",
+		"ref": "poor",
+		"will": "poor"
+	},
+	"special": {
+		"1": [
+			"fast movement",
+			"illiteracy",
+			"rage 1/day"
+		],
+		"2": [
+			"uncanny dodge"
+		]
+	},
+	"alignments": [
+		"Chaotic Evil",
+		"Chaotic Good",
+		"Chaotic Neutral",
+		"Neutral Evil",
+		"Netural Good"
+	],
+	"hitDie": 12.0,
+	"skills": [
+		"Climb",
+		"Craft",
+		"Handle Animal",
+		"Intimidate",
+		"Jump",
+		"Listen",
+		"Ride",
+		"Survival",
+		"Swim"
+	],
+	"skillPoints": 4.0,
+	"weaponProf": [
+		"all simple weapons",
+		"all martial weapons"
+	],
+	"armorProf": [
+		"light armor",
+		"medium armor",
+		"shields (but not tower shields)"
+	],
+	"gold": 100.0,
+	"cl": 0,
+	"spellsKnown": {
+		"1": [],
+		"2": []
+	},
+	"spellsPerDay": {
+		"1": [],
+		"2": []
+	}
+}
+{
+	"_id": {
+		"$oid": "5e4c01dde37231c9b7d30e3f"
+	},
+	"name": "ranger",
+	"bab": "good",
+	"saves": {
+		"fort": "good",
+		"ref": "good",
+		"will": "poor"
+	},
+	"special": {
+		"1": [
+			"favored enemy",
+			"bf_Track",
+			"wild empathy"
+		],
+		"2": [
+			"combat style"
+		]
+	},
+	"alignments": [
+		"Chaotic Evil",
+		"Chaotic Good",
+		"Chaotic Neutral",
+		"Lawful Evil",
+		"Lawful Good",
+		"Lawful Neutral",
+		"Netural",
+		"Neutral Evil",
+		"Netural Good"
+	],
+	"hitDie": 8.0,
+	"skills": [
+		"Climb",
+		"Concentration",
+		"Craft",
+		"Handle Animal",
+		"Heal",
+		"Hide",
+		"Jump",
+		"Knowledge(dungeoneering)",
+		"Knowledge(geography)",
+		"Knowledge(nature)",
+		"Listen",
+		"Move Silently",
+		"Profession",
+		"Ride",
+		"Search",
+		"Spot",
+		"Survival",
+		"Swim",
+		"Use Rope"
+	],
+	"skillPoints": 6.0,
+	"weaponProf": [
+		"all simple weapons",
+		"all martial weapons"
+	],
+	"armorProf": [
+		"light armor",
+		"shields (but not tower shields)"
+	],
+	"gold": 150.0,
+	"cl": 0,
+	"spellsKnown": {
+		"1": [],
+		"2": []
+	},
+	"spellsPerDay": {
+		"1": [],
+		"2": []
+	}
+}
+{
+	"_id": {
+		"$oid": "5e4c02b4e37231c9b7d30e40"
+	},
+	"name": "fighter",
+	"bab": "good",
+	"saves": {
+		"fort": "good",
+		"ref": "poor",
+		"will": "poor"
+	},
+	"special": {
+		"1": [
+			"bonus feat"
+		],
+		"2": [
+			"bonus feat"
+		]
+	},
+	"alignments": [
+		"Chaotic Evil",
+		"Chaotic Good",
+		"Chaotic Neutral",
+		"Lawful Evil",
+		"Lawful Good",
+		"Lawful Neutral",
+		"Netural",
+		"Neutral Evil",
+		"Netural Good"
+	],
+	"hitDie": 10.0,
+	"skills": [
+		"Climb",
+		"Craft",
+		"Handle Animal",
+		"Intimidate",
+		"Jump",
+		"Ride",
+		"Swim"
+	],
+	"skillPoints": 2.0,
+	"weaponProf": [
+		"all simple weapons",
+		"all martial weapons"
+	],
+	"armorProf": [
+		"light armor",
+		"medium armor",
+		"heavy armor",
+		"shields (including tower shields)"
+	],
+	"gold": 150.0,
+	"cl": 0,
+	"spellsPerDay": {
+		"1": [],
+		"2": []
+	},
+	"spellsKnown": {
+		"1": [],
+		"2": []
+	}
+}
+{
+	"_id": {
+		"$oid": "5e4c03bee37231c9b7d30e41"
+	},
+	"name": "sorcerer",
+	"bab": "poor",
+	"saves": {
+		"fort": "poor",
+		"ref": "poor",
+		"will": "good"
+	},
+	"special": {
+		"1": [
+			"summon familiar"
+		],
+		"2": []
+	},
+	"alignments": [
+		"Chaotic Evil",
+		"Chaotic Good",
+		"Chaotic Neutral",
+		"Lawful Evil",
+		"Lawful Good",
+		"Lawful Neutral",
+		"Netural",
+		"Neutral Evil",
+		"Netural Good"
+	],
+	"hitDie": 4.0,
+	"skills": [
+		"Bluff",
+		"Concentration",
+		"Craft",
+		"Knowledge(arcana)",
+		"Profession",
+		"Spellcraft"
+	],
+	"skillPoints": 2.0,
+	"weaponProf": [
+		"all simple weapons"
+	],
+	"armorProf": [
+		"none"
+	],
+	"gold": 150.0,
+	"cl": 1,
+	"spellsKnown": {
+		"1": [
+			4.0,
+			2.0
+		],
+		"2": [
+			5.0,
+			2.0
+		]
+	},
+	"spellsPerDay": {
+		"1": [
+			5.0,
+			3.0
+		],
+		"2": [
+			6.0,
+			4.0
+		]
+	}
+}
+{
+	"_id": {
+		"$oid": "5e4fd323e37231c9b7d30e47"
+	},
+	"name": "rogue",
+	"bab": "poor",
+	"saves": {
+		"fort": "poor",
+		"ref": "good",
+		"will": "poor"
+	},
+	"special": {
+		"1": [
+			"sneak attack +1d6",
+			"trapfinding"
+		],
+		"2": [
+			"evasion"
+		]
+	},
+	"alignments": [
+		"Chaotic Evil",
+		"Chaotic Good",
+		"Chaotic Neutral",
+		"Lawful Evil",
+		"Lawful Good",
+		"Lawful Neutral",
+		"Netural",
+		"Neutral Evil",
+		"Netural Good"
+	],
+	"hitDie": 6.0,
+	"skills": [
+		"Appraise",
+		"Balance",
+		"Bluff",
+		"Climb",
+		"Craft",
+		"Decipher Script",
+		"Diplomacy",
+		"Disable Device",
+		"Disguise",
+		"Escape Artist",
+		"Forgery",
+		"Gather Information",
+		"Hide",
+		"Intimidate",
+		"Jump",
+		"Knowledge(local)",
+		"Listen",
+		"Move Silently",
+		"Open Lock",
+		"Perform",
+		"Profession",
+		"Search",
+		"Sense Motive",
+		"Sleight of Hand",
+		"Spot",
+		"Swim",
+		"Tumble",
+		"Use Magic Device",
+		"Use Rope"
+	],
+	"skillPoints": 8.0,
+	"weaponProf": [
+		"all simple weapons",
+		"hand crossbow",
+		"rapier",
+		"sap",
+		"shortbow",
+		"short sword"
+	],
+	"armorProf": [
+		"light armor"
+	],
+	"gold": 85.0,
+	"cl": 0,
+	"spellsKnown": {
+		"1": [],
+		"2": []
+	},
+	"spellsPerDay": {
+		"1": [],
+		"2": []
+	}
+}
+{
+	"_id": {
+		"$oid": "5e4fd578e37231c9b7d30e48"
+	},
+	"name": "bard",
+	"bab": "poor",
+	"saves": {
+		"fort": "poor",
+		"ref": "good",
+		"will": "good"
+	},
+	"special": {
+		"1": [
+			"bardic music",
+			"bardic knowledge",
+			"countersong",
+			"fascinate",
+			"inspire courage +1"
+		],
+		"2": []
+	},
+	"alignments": [
+		"Chaotic Evil",
+		"Chaotic Good",
+		"Chaotic Neutral",
+		"Netural",
+		"Neutral Evil",
+		"Netural Good"
+	],
+	"hitDie": 6.0,
+	"skills": [
+		"Appraise",
+		"Balance",
+		"Bluff",
+		"Climb",
+		"Concentrate",
+		"Craft",
+		"Decipher Script",
+		"Diplomacy",
+		"Disguise",
+		"Escape Artist",
+		"Gather Information",
+		"Hide",
+		"Jump",
+		"Knowledge(all)",
+		"Listen",
+		"Move Silently",
+		"Perform",
+		"Profession",
+		"Sense Motive",
+		"Sleight of Hand",
+		"Speak Language",
+		"Spellcraft",
+		"Swim",
+		"Tumble",
+		"Use Magic Device"
+	],
+	"skillPoints": 6.0,
+	"weaponProf": [
+		"all simple weapons",
+		"longsword",
+		"rapier",
+		"sap",
+		"shortbow",
+		"short sword",
+		"whip"
+	],
+	"armorProf": [
+		"light armor",
+		"shields (but not tower shields)"
+	],
+	"gold": 85.0,
+	"cl": 1,
+	"spellsKnown": {
+		"1": [
+			4.0
+		],
+		"2": [
+			5.0,
+			2.0
+		]
+	},
+	"spellsPerDay": {
+		"1": [
+			2.0
+		],
+		"2": [
+			3.0,
+			0.0
+		]
+	}
+}

@@ -1,0 +1,258 @@
+div.abilityMain {
+  position: absolute;
+  display: inline-block;
+  width: 300px;
+  height: 770px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #333333c7;
+  border: 4px groove #2c2b2bc7;
+  border-radius: 25px;
+}
+
+.abilityPoints {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 200px;
+}
+
+.campaignPoints {
+  display: inline-block;
+  position: absolute;
+}
+
+.adjustments {
+  position: absolute;
+  width: 290px;
+  top: 575px;
+  padding-left: 20px;
+  color: whitesmoke;
+  font-size: 18px;
+}
+
+
+/* ==============================================================================================
+    COMPONENT TITLES
+============================================================================================== */
+
+.abilityTitle {
+  font-family: fantasy;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.campaignTitle {
+  font-family: fantasy;
+  text-decoration: underline;
+  text-align: center;
+}
+
+
+/* ==============================================================================================
+    TOTAL POINTS MARKER
+============================================================================================== */
+
+h2.ptTotal {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.good {
+  color: green;
+}
+
+.overspent {
+  color: red;
+}
+
+
+/* ==============================================================================================
+    ABILITY SCORE COMPONENTS
+============================================================================================== */
+
+div.abilityScore {
+  font-family: sans-serif;
+  font-size: 20px;
+  margin: 10px;
+}
+
+div.abilityScore input {
+  font-size: 20px;
+  padding: 2px;
+  width: 50px;
+  border-color: silver;
+  background-color: whitesmoke;
+}
+
+p.abilityLabel {
+  display: inline-block;
+  width: 60px;
+  text-transform: uppercase;
+}
+
+label.pointLabel {
+  margin-left: 10px;
+}
+
+
+/* ==============================================================================================
+    CAMPAIGN TABLE STYLES
+============================================================================================== */
+
+table.campaignTable {
+  font-size: 18px;
+  font-family: sans-serif;
+  border-collapse: collapse;
+}
+
+table.campaignTable thead {
+  text-align: left;
+}
+
+table.campaignTable td:nth-child(2) {
+  padding-right: 30px;
+}
+
+table.campaignTable td:first-child {
+  padding-right: 3px;
+}
+
+table.campaignTable td:nth-child(3) {
+  text-align: center;
+}
+
+table.campaignTable tbody tr {
+  cursor: pointer;
+  height: 25px;
+}
+
+table.campaignTable tbody tr:hover {
+  background-color: silver;
+}
+
+table.campaignTable tbody tr td:first-child {
+  color: orangered;
+}
+
+
+/* ==============================================================================================
+    DIALOG STYLES
+============================================================================================== */
+
+.DialogBody table {
+  margin: 15px;
+  border-collapse: collapse;
+}
+
+.DialogBody table thead tr td {
+  border-bottom: thin solid #333;
+}
+
+.DialogBody table tr td {
+  padding-right: 10px;
+}
+
+.DialogBody table tr:nth-child(even) {
+  background-color: aliceblue;
+}
+
+.DialogBody table tr td:not(:first-child) {
+  text-align: center;
+}
+
+
+/* ==============================================================================================
+    BUTTON STYLES
+============================================================================================== */
+
+.abilityMain .Button {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 5px 5px 10px black;
+}
+
+.abilityMain .Button:hover {
+  transform: translateX(-50%) scale(1.06);
+}
+
+
+/* ==============================================================================================
+    MEDIA QUERIES
+============================================================================================== */
+
+@media screen and (min-width: 830px) {
+  div.abilityMain {
+    width: 570px;
+    height: 461px;
+  }
+
+  .abilityPoints {
+    top: 0px;
+  }
+
+  .adjustments {
+    top: 225px;
+  }
+}
+
+@media screen and (max-height: 775px) {
+  table.campaignTable {
+    font-size: 12px;
+  }
+
+  div.abilityMain {
+    height: 500px;
+    width: 250px;
+  }
+
+  div.abilityScore {
+    font-size: 12px;
+    margin: 3px;
+  }
+
+  div.abilityScore input {
+      font-size: 12px;
+      padding: 0px;
+      width: 40px;
+  }
+
+  h2.ptTotal {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .adjustments {
+    top: 360px;
+    font-size: 12px;
+    width: 250px;
+  }
+
+  .campaignTitle, 
+  .abilityTitle {
+    font-size: 16px;
+  }
+
+  .campaignPoints .borderwrap.small,
+  .abilityPoints .borderwrap.small {
+    width: 200px;
+    margin-top: 10px;
+  }
+
+  .abilityPoints {
+    top: 134px;
+    left: 0;
+  }
+
+  table.campaignTable tbody tr {
+    height: 16px;
+  }
+
+  .abilityMain .Button {
+    bottom: 10px;
+  }
+}

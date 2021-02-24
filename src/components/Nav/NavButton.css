@@ -1,0 +1,67 @@
+.nav-checkbox {
+  display: none; 
+}
+
+.nav-button {
+  background: radial-gradient(circle at center, white, white, whitesmoke, silver);
+  height: 32px;
+  width: 32px;
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  border-radius: 50%;
+  z-index: 900;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.473);
+  border: 2px inset gold;
+  text-align: center;
+  cursor: pointer; 
+}
+
+.nav-icon {
+  position: relative;
+  margin-top: .8rem;
+}
+
+.nav-icon, .nav-icon::before, .nav-icon::after {
+  width: 20px;
+  height: 2px;
+  background-color: #333;
+  display: inline-block;
+}
+
+.nav-icon::before, .nav-icon::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  transition: transform .2s;
+}
+
+.nav-icon::before {
+  top: -6px;
+}
+
+.nav-icon::after {
+  top: 6px;
+}
+
+.nav-button:hover .nav-icon::before {
+  top: -7px;
+}
+
+.nav-button:hover .nav-icon::after {
+  top: 7px;
+}
+
+.nav-checkbox:checked + .nav-button .nav-icon {
+  background-color: transparent;
+}
+
+.nav-checkbox:checked + .nav-button .nav-icon::before {
+  top: 0;
+  transform: rotate(135deg);
+}
+
+.nav-checkbox:checked + .nav-button .nav-icon::after {
+  top: 0;
+  transform: rotate(-135deg);
+}

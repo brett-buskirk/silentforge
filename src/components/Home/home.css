@@ -1,0 +1,33 @@
+div.homeMain {
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 90vw;
+}
+
+div.homeMain h1 {
+  margin-bottom: 10px;
+  font-family: Noteworthy, sans-serif;
+  letter-spacing: 1.4px;
+  color: white;
+  text-shadow: 0 0 10px black;
+}
+
+div.homeMain h3 {
+  margin-top: 20px;
+  font-family: sans-serif;
+  letter-spacing: 1.2px;
+  color: whitesmoke;
+  text-shadow: 0 0 10px black;
+}
+
+.info-pointer {
+  position: fixed;
+  right: 70px;
+  bottom: 22px;
+  color: gold;
+  text-shadow: 0 0 10px black;
+}

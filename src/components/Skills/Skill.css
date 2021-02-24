@@ -1,0 +1,219 @@
+div.skill-container {
+  position: absolute;
+  width: 315px;
+  height: 570px;
+  top: 50%;
+  left: 50%;
+  font-family: sans-serif;
+  transform: translate(-50%, -50%);
+  background-color: #333333c7;
+  border: 4px groove #2c2b2bc7;
+}
+
+div.topContainer {
+  background-color: black;
+  border-bottom: thin solid gold;
+}
+
+div.topContainer button {
+  position: absolute;
+  right: 0px;
+  margin: 5px;
+  padding: 2px;
+}
+
+div.tableContainer {
+  height: 502px;
+  overflow: auto;
+}
+
+.skillTable {
+  color: whitesmoke;
+  border-collapse: collapse;
+}
+
+.classSkill {
+  color: gold;
+}
+
+
+/* ==============================================================================================
+    POINTS REMAINING MARKER
+============================================================================================== */
+
+.points {
+  display: inline-block;
+  padding: 5px;
+  color: lightgreen;
+  text-align: center;
+  font-size: 14px;
+}
+
+.overspent {
+  color: red;
+}
+
+
+/* ==============================================================================================
+    TABLE HEADER
+============================================================================================== */
+
+.tableHeader {
+  margin-top: 14px;
+  color: gold;
+  font-size: 12px;
+  text-align: left;
+}
+
+.tableHeader thead tr th:first-child {
+  width: 15px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.tableHeader thead tr th:nth-child(2) {
+  width: 158px;
+}
+
+.tableHeader thead tr th:nth-child(3) {
+  width: 27px;
+}
+
+.tableHeader thead tr th:nth-child(4) {
+  width: 46px;
+}
+
+
+/* ==============================================================================================
+    TABLE BODY
+============================================================================================== */
+
+.skillTable tbody {
+  font-size: 12px;
+}
+
+.skillTable tbody tr:nth-child(even) {
+  background-color: #11111181;
+}
+
+.skillTable tbody tr td {
+  padding-top: 2px;
+}
+
+.skillTable tbody tr:hover {
+  background-color: silver;
+  color: black;
+}
+
+.skillTable tbody tr td:first-child {
+  width: 20px;
+  text-align: center;
+}
+
+.skillTable tbody tr td:nth-child(2) {
+  width: 160px;
+}
+
+.skillTable tbody tr td:nth-child(3) {
+  font-size: 10px;
+  width: 20px;
+}
+
+.skillTable tbody tr td:nth-child(5) {
+  padding-left: 15px;
+  width: 40px;
+}
+
+.skillTable input {
+  font-size: 12px;
+}
+
+
+/* ==============================================================================================
+    MEDIA QUERIES
+============================================================================================== */
+
+@media only screen and (min-width: 820px) {
+  div.skill-container {
+    width: 512px;
+  }
+
+  .points {
+    font-size: 20px;
+  }
+
+  div.topContainer button {
+    padding: 5px;
+  }
+
+  .skillTable tbody {
+    font-size: 16px;
+  }
+
+  .skillTable input {
+    font-size: 14px;
+  }
+
+  .skillTable tbody tr td:nth-child(3) {
+    font-size: 12px;
+    width: 40px;
+  }
+
+  .skillTable tbody tr td:nth-child(2) {
+    width: 310px;
+  }
+
+  div.tableContainer {
+    height: 493px;
+  }
+
+  .tableHeader {
+    font-size: 14px;
+  }
+
+  .tableHeader thead tr th:first-child {
+    width: 30px;
+    font-size: 14px;
+  }
+  
+  .tableHeader thead tr th:nth-child(2) {
+    width: 308px;
+  }
+  
+  .tableHeader thead tr th:nth-child(3) {
+    width: 40px;
+  }
+  
+  .tableHeader thead tr th:nth-child(4) {
+    width: 60px;
+  }
+
+  .skillTable tbody tr td:nth-child(5) {
+    padding-left: 25px;
+    width: 55px;
+  }
+
+  .skillTable tbody tr td:first-child {
+    width: 35px;
+  }
+}
+
+@media screen and (max-height: 700px) {
+  div.skill-container {
+    height: 470px;
+  }
+
+  div.tableContainer {
+    height: 392px;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  div.skill-container {
+    height: 370px;
+  }
+
+  div.tableContainer {
+    height: 292px;
+  }
+}

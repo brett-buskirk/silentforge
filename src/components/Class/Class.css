@@ -1,0 +1,141 @@
+div.class-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 220px;
+}
+
+div.classButton {
+  position: relative;
+  height: 75px;
+  width: 200px;
+  margin: 10px 0px;
+  padding: 10px;
+  border-radius: 12px;
+  border: 3px groove bisque;
+  box-shadow: 5px 5px 15px black;
+  transition: transform .3s;
+}
+
+div.classButton:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+div.classButton h2 {
+  position: absolute;
+  bottom: 5px;
+  font-family: fantasy;
+  color: gold;
+  letter-spacing: 1.3px;
+  text-shadow: 3px 3px 10px black;
+}
+
+
+/* ==============================================================================================
+    SMALL BUTTON STYLES
+============================================================================================== */
+
+div.smallButton {
+  background-color: #555;
+  width: 220px;
+  padding: 0;
+}
+
+div.thumbnail {
+  height: 100%;
+  width: 75px;
+  border-radius: 9px 0px 0px 9px;
+  border-right: thin solid bisque;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+div.smallButton h2 {
+  left: 82px;
+  margin-bottom: 6px;
+}
+
+
+/* ==============================================================================================
+    LARGE BUTTON STYLES
+============================================================================================== */
+
+div.largeButton {
+  display: none;
+}
+
+
+/* ==============================================================================================
+    BUTTON IMAGES
+============================================================================================== */
+
+.barbarian {
+  background-image: url('../../images/barbarian.png')
+}
+
+.bard {
+  background-image: url('../../images/bard.png')
+}
+
+.fighter {
+  background-image: url('../../images/fighter.png')
+}
+
+.ranger {
+  background-image: url('../../images/ranger.png')
+}
+
+.rogue {
+  background-image: url('../../images/rogue.png')
+}
+
+.sorcerer {
+  background-image: url('../../images/sorcerer.png')
+}
+
+
+/* ==============================================================================================
+    MEDIA QUERIES
+============================================================================================== */
+
+@media only screen and (min-width: 720px) {
+  div.class-container {
+    width: 480px;
+  }
+
+  div.classButton {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+  }
+
+  div.smallButton {
+    display: none;
+  }
+
+  div.largeButton {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 970px) {
+  div.class-container {
+    width: 720px;
+  }
+}
+
+@media screen and (min-width: 1220px) {
+  div.class-container {
+    width: 960px;
+  }
+}
+
+@media screen and (max-height: 775px) {
+  div.classButton {
+    height: 67px;
+    margin: 5px 0px;
+  }
+}

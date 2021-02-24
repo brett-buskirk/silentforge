@@ -1,0 +1,151 @@
+.Dialog {
+  font-family: sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  width: 500px;
+  background-color: #daab6f;
+  border-radius: 12px;
+  border: 3px groove bisque;
+  box-shadow: 5px 5px 15px black;
+}
+
+
+/* ==============================================================================================
+    DIALOG SECTION STYLES
+============================================================================================== */
+
+.DialogHeader {
+  height: 50px;
+  background-color: #9c743f;
+  border-radius: 10px 10px 0 0;
+  border-bottom: thin solid #333;
+  padding: 10px;
+  font-family: fantasy;
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px #333;
+}
+
+.DialogBody {
+  padding: 10px;
+  padding-bottom: 70px;
+  min-height: 75px;
+}
+
+.DialogFooter {
+  background-color: #9c743f;
+  border-radius: 0 0 10px 10px;
+  border-top: thin solid #333;
+  padding: 0 10px 10px 10px;
+  text-align: right;
+}
+
+
+/* ==============================================================================================
+    DISMISS DIALOG LINK
+============================================================================================== */
+
+.DialogDismiss {
+  margin-right: 10px;
+  text-decoration: underline;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #97152f;
+}
+
+.DialogDismiss:hover {
+  cursor: pointer;
+  color: red;
+}
+
+
+/* ==============================================================================================
+    MODAL PROPERTIES
+============================================================================================== */
+
+.DialogModal {
+	background: #00000023;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  border: none;
+  border-radius: 0px;
+}
+
+.DialogModalOpen {
+  overflow: hidden;
+}
+
+.DialogModal .DialogModalWrap {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 315px;
+  background-color: #faebd7;
+  border-radius: 12px;
+  border: 3px groove bisque;
+  box-shadow: 5px 5px 15px black;
+}
+
+
+/* ==============================================================================================
+    INFO DIALOG
+============================================================================================== */
+
+.info-detail {
+  margin: 7px;
+  margin-left: 15px;
+}
+
+.Info .DialogModalWrap {
+  border-color: rgb(0, 140, 255);
+}
+
+.Info .DialogModalWrap .DialogBody {
+  padding-bottom: 10px;
+}
+
+.Info .DialogModalWrap .DialogHeader {
+  background-color: lightskyblue;
+}
+
+.Info .DialogModalWrap .DialogBody {
+  background-color: aliceblue;
+}
+
+.Info .DialogModalWrap .DialogFooter {
+  background-color: lightskyblue;
+}
+
+
+/* ==============================================================================================
+    DETAILS SECTION
+============================================================================================== */
+
+.DialogBody .dialog-details {
+  margin: 0 15px;
+  font-style: oblique;
+}
+
+.DialogBody .dialog-details:first-child {
+  margin-top: 15px;
+}
+
+.DialogBody .dialog-details:last-child {
+  margin-bottom: 15px;
+}
+
+
+/* ==============================================================================================
+    MEDIA QUERIES
+============================================================================================== */
+
+@media screen and (min-width: 600px) {
+  .DialogModal .DialogModalWrap {
+    width: 450px;
+  }
+}

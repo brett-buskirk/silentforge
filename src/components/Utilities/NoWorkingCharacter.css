@@ -1,0 +1,9 @@
+.noWorkingCharacter {
+  font-family: sans-serif;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.noWorkingCharacter h1 {
+  margin-bottom: 15px;
+}
